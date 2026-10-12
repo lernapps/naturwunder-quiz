@@ -4,7 +4,7 @@
 # archetype: the kind of app, chosen at the end of Explore: explainer, interactive or quiz. null until then.
 archetype: quiz
 # phase: the phase you work in now: explore, plan, code or commit. Change it when you enter the next phase.
-phase: plan
+phase: code
 # prePushFailures: failed runs of the pre-push hook. The hook counts them. Never change this value.
 prePushFailures: 0
 ---
@@ -134,14 +134,14 @@ creator's turns from here to the listing are counted in the retrospective (targe
 
 ### Tasks
 
-- [ ] **Checkpoint:** confirm the plan. Stop and wait for the creator. Change the plan if they ask, then ask again.
-- [ ] Set `phase: code`.
 
 ### Completed
 
-- [x] Show the creator the goal, the archetype, the entry draft and the tasks, short.
 - [x] Write the tasks of Code under "Code": the pages or screens, the content, and what each must show. Each task
       ends in a commit.
+- [x] Show the creator the goal, the archetype, the entry draft and the tasks, short.
+- [x] **Checkpoint:** confirm the plan. Stop and wait for the creator. Change the plan if they ask, then ask again. Bestätigt: „Passt“.
+- [x] Set `phase: code`.
 
 
 ## Code
@@ -159,13 +159,6 @@ one of them, stop and ask the creator to allow it, then run the command again. N
 
 ### Tasks
 
-- [ ] Generate the app in the folder that holds this plan: `npx --yes github:lernapps/tooling#main create --archetype
-      <archetype>`. Nothing needs to be installed first. The generator keeps this plan at `.vibe/plan.md`.
-- [ ] Run `git init` if the folder is not a git repository yet. Then run `npm install`: it installs the dependencies
-      and the git hooks. From now on, everything runs from the app's own `node_modules`: `npx lernapps check`, the
-      hooks.
-- [ ] Commit what the generator wrote, with this plan: the first commit.
-- [ ] Load the skill `lernapps-app` and the skill of the archetype.
 - [ ] Rahmen und Thema „Gebirge und Vulkane“: Beispiel ersetzen; Titel, Einleitung, `sources`; 5 Fragen (z. B. Mount Everest, Kilimandscharo, Ätna, Matterhorn, Aconcagua; Typen gemischt).
 - [ ] Thema „Wasserfälle, Flüsse und Seen“: 5 Fragen (z. B. Victoriafälle, Iguazú-Wasserfälle, Niagarafälle, Baikalsee, Amazonas).
 - [ ] Thema „Wüsten“: 4 Fragen (z. B. Sahara, Atacama, Namib, Antarktis als Kältewüste).
@@ -178,6 +171,14 @@ one of them, stop and ask the creator to allow it, then run the command again. N
 - [ ] Set `phase: commit`.
 
 ### Completed
+
+- [x] Generate the app in the folder that holds this plan: `npx --yes github:lernapps/tooling#main create --archetype
+      <archetype>`. Nothing needs to be installed first. The generator keeps this plan at `.vibe/plan.md`.
+- [x] Run `git init` if the folder is not a git repository yet. Then run `npm install`: it installs the dependencies
+      and the git hooks. From now on, everything runs from the app's own `node_modules`: `npx lernapps check`, the
+      hooks.
+- [x] Commit what the generator wrote, with this plan: the first commit.
+- [x] Load the skill `lernapps-app` and the skill of the archetype.
 
 ## Commit
 
