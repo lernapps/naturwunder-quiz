@@ -184,6 +184,221 @@
           "url": "https://de.wikipedia.org/wiki/Mont_Blanc"
         }
       ]
+    },
+    {
+      "id": "sambesi-victoriafaelle",
+      "type": "single-choice",
+      "text": "Welcher Fluss stürzt an den Victoriafällen in Afrika in die Tiefe?",
+      "options": [
+        {
+          "text": "Sambesi",
+          "correct": true,
+          "info": "Der Sambesi ist rund 2570 km lang und fließt durch das südliche Afrika in den Indischen Ozean. Er bildet zum Teil die Grenze zwischen Sambia und Simbabwe.",
+          "link": {
+            "title": "Sambesi (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Sambesi"
+          }
+        },
+        {
+          "text": "Kongo",
+          "correct": false,
+          "info": "Der Kongo fließt durch Zentralafrika und ist der wasserreichste Fluss Afrikas. Mit bis zu 220 m ist er der tiefste Fluss der Welt.",
+          "link": {
+            "title": "Kongo (Fluss) (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Kongo_(Fluss)"
+          }
+        },
+        {
+          "text": "Nil",
+          "correct": false,
+          "info": "Der Nil ist rund 6650 km lang und gilt als längster Fluss der Erde. Er mündet in Ägypten ins Mittelmeer.",
+          "link": {
+            "title": "Nil (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Nil"
+          }
+        },
+        {
+          "text": "Limpopo",
+          "correct": false,
+          "info": "Der Limpopo ist rund 1750 km lang. Er bildet die Nordgrenze Südafrikas und fließt dann durch Mosambik.",
+          "link": {
+            "title": "Limpopo (Fluss) (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Limpopo_(Fluss)"
+          }
+        }
+      ],
+      "explanation": "Die Victoriafälle liegen am Sambesi zwischen Sambia und Simbabwe. Dort fällt der Fluss etwa 110 m tief in eine schmale Schlucht.",
+      "links": [
+        {
+          "title": "Victoriafälle (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Victoriaf%C3%A4lle"
+        }
+      ]
+    },
+    {
+      "id": "victoriafaelle-breite",
+      "type": "number",
+      "text": "Die Victoriafälle sind der breiteste durchgehende Wasserfall der Erde. Wie breit sind sie ungefähr? Bis zu 200 m daneben zählt noch als richtig.",
+      "answer": 1708,
+      "tolerance": 200,
+      "unit": "m",
+      "explanation": "Der Sambesi stürzt auf rund 1700 m Breite in eine Schlucht. Der Sprühnebel steigt bis zu 300 m hoch und ist weit zu sehen. Deshalb nennen die Menschen vor Ort den Wasserfall „Mosi-oa-Tunya“, auf Deutsch „donnernder Rauch“.",
+      "links": [
+        {
+          "title": "Victoriafälle (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Victoriaf%C3%A4lle"
+        }
+      ]
+    },
+    {
+      "id": "iguazu",
+      "type": "single-choice",
+      "text": "Welche Wasserfälle liegen an der Grenze zwischen Argentinien und Brasilien?",
+      "options": [
+        {
+          "text": "Iguazú-Wasserfälle",
+          "correct": true,
+          "info": "Die Iguazú-Wasserfälle gehören zum Fluss Iguazú. Sie liegen zwischen der argentinischen Provinz Misiones und dem brasilianischen Bundesstaat Paraná.",
+          "link": {
+            "title": "Iguazú-Wasserfälle (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Iguaz%C3%BA-Wasserf%C3%A4lle"
+          }
+        },
+        {
+          "text": "Salto Ángel",
+          "correct": false,
+          "info": "Der Salto Ángel liegt im Südosten von Venezuela. Mit 807 m freiem Fall ist er einer der höchsten Wasserfälle der Erde.",
+          "link": {
+            "title": "Salto Ángel (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Salto_%C3%81ngel"
+          }
+        },
+        {
+          "text": "Kaieteur-Wasserfälle",
+          "correct": false,
+          "info": "Die Kaieteur-Wasserfälle liegen in Guyana. Dort stürzt das Wasser in einer einzigen Stufe 226 m tief.",
+          "link": {
+            "title": "Kaieteur-Fälle (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Kaieteur-F%C3%A4lle"
+          }
+        },
+        {
+          "text": "Niagarafälle",
+          "correct": false,
+          "info": "Die Niagarafälle liegen in Nordamerika an der Grenze zwischen den USA und Kanada.",
+          "link": {
+            "title": "Niagarafälle (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Niagaraf%C3%A4lle"
+          }
+        }
+      ],
+      "explanation": "Die Iguazú-Wasserfälle liegen genau auf der Grenze zwischen Argentinien und Brasilien. Die anderen Wasserfälle liegen in Venezuela, Guyana und Nordamerika.",
+      "links": [
+        {
+          "title": "Iguazú-Wasserfälle (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Iguaz%C3%BA-Wasserf%C3%A4lle"
+        }
+      ]
+    },
+    {
+      "id": "baikalsee",
+      "type": "single-choice",
+      "text": "Welcher See ist der tiefste See der Erde?",
+      "options": [
+        {
+          "text": "Baikalsee",
+          "correct": true,
+          "info": "Der Baikalsee liegt in Sibirien in Russland. Er ist bis zu 1642 m tief und mit über 25 Millionen Jahren der älteste See der Erde.",
+          "link": {
+            "title": "Baikalsee (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Baikalsee"
+          }
+        },
+        {
+          "text": "Tanganjikasee",
+          "correct": false,
+          "info": "Der Tanganjikasee liegt in Ostafrika zwischen vier Ländern. Er ist der zweittiefste See der Erde.",
+          "link": {
+            "title": "Tanganjikasee (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Tanganjikasee"
+          }
+        },
+        {
+          "text": "Kaspisches Meer",
+          "correct": false,
+          "info": "Das Kaspische Meer ist trotz seines Namens ein See. Es ist der größte See der Erde und hat salziges Wasser.",
+          "link": {
+            "title": "Kaspisches Meer (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Kaspisches_Meer"
+          }
+        },
+        {
+          "text": "Oberer See",
+          "correct": false,
+          "info": "Der Obere See ist einer der fünf Großen Seen in Nordamerika. Von allen Süßwasserseen hat er die größte Fläche.",
+          "link": {
+            "title": "Oberer See (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Oberer_See"
+          }
+        }
+      ],
+      "explanation": "Der Baikalsee ist an seiner tiefsten Stelle 1642 m tief. Kein anderer See der Erde ist so tief. Er enthält auch mehr Süßwasser als jeder andere See.",
+      "links": [
+        {
+          "title": "Baikalsee (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Baikalsee"
+        }
+      ]
+    },
+    {
+      "id": "amazonas-wasser",
+      "type": "single-choice",
+      "text": "Welcher Fluss führt das meiste Wasser von allen Flüssen der Erde?",
+      "options": [
+        {
+          "text": "Amazonas",
+          "correct": true,
+          "info": "Der Amazonas fließt durch den Norden Südamerikas bis in den Atlantik. An seiner Mündung führt er mehr Wasser als die sieben nächstgrößeren Flüsse zusammen.",
+          "link": {
+            "title": "Amazonas (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Amazonas"
+          }
+        },
+        {
+          "text": "Kongo",
+          "correct": false,
+          "info": "Der Kongo fließt durch Zentralafrika. Er ist der wasserreichste Fluss Afrikas.",
+          "link": {
+            "title": "Kongo (Fluss) (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Kongo_(Fluss)"
+          }
+        },
+        {
+          "text": "Jangtsekiang",
+          "correct": false,
+          "info": "Der Jangtsekiang ist mit 6380 km der längste Fluss Asiens. Er fließt quer durch China ins Ostchinesische Meer.",
+          "link": {
+            "title": "Jangtsekiang (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Jangtsekiang"
+          }
+        },
+        {
+          "text": "Nil",
+          "correct": false,
+          "info": "Der Nil gilt mit rund 6650 km als längster Fluss der Erde. Er fließt von Ostafrika bis nach Ägypten ins Mittelmeer.",
+          "link": {
+            "title": "Nil (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Nil"
+          }
+        }
+      ],
+      "explanation": "Der Amazonas führt im Mittel rund 206.000 m³ Wasser pro Sekunde. Das ist etwa 70-mal so viel wie der Rhein. Kein Fluss der Erde führt mehr Wasser.",
+      "links": [
+        {
+          "title": "Amazonas (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Amazonas"
+        }
+      ]
     }
   ],
   "sources": [
@@ -250,6 +465,66 @@
     {
       "title": "Mont Blanc, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
       "url": "https://de.wikipedia.org/wiki/Mont_Blanc"
+    },
+    {
+      "title": "Sambesi, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Sambesi"
+    },
+    {
+      "title": "Kongo (Fluss), Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Kongo_(Fluss)"
+    },
+    {
+      "title": "Nil, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Nil"
+    },
+    {
+      "title": "Limpopo (Fluss), Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Limpopo_(Fluss)"
+    },
+    {
+      "title": "Victoriafälle, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Victoriaf%C3%A4lle"
+    },
+    {
+      "title": "Iguazú-Wasserfälle, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Iguaz%C3%BA-Wasserf%C3%A4lle"
+    },
+    {
+      "title": "Salto Ángel, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Salto_%C3%81ngel"
+    },
+    {
+      "title": "Kaieteur-Fälle, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Kaieteur-F%C3%A4lle"
+    },
+    {
+      "title": "Niagarafälle, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Niagaraf%C3%A4lle"
+    },
+    {
+      "title": "Baikalsee, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Baikalsee"
+    },
+    {
+      "title": "Tanganjikasee, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Tanganjikasee"
+    },
+    {
+      "title": "Kaspisches Meer, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Kaspisches_Meer"
+    },
+    {
+      "title": "Oberer See, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Oberer_See"
+    },
+    {
+      "title": "Amazonas, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Amazonas"
+    },
+    {
+      "title": "Jangtsekiang, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Jangtsekiang"
     }
   ]
 }
