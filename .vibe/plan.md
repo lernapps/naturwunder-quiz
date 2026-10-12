@@ -200,7 +200,6 @@ another branch until the creator says yes.
 
 ### Tasks
 
-- [ ] **Checkpoint:** publish. Ask the creator before the app goes online, and wait for their yes.
 - [ ] Merge your branch into `main` and push `main`. Watch the run of the workflow `Pages` on `main` until it ends
       (for example `gh run watch`, or the Actions tab of the repo). If it fails, read the message of the failed step:
       fix what you can and push again; for a setting only a repository admin may change, tell the creator the exact
@@ -215,6 +214,8 @@ another branch until the creator says yes.
 ### Completed
 
 - [x] Push your branch (not `main`). The pre-push hook runs the heavy checks; fix what fails.
+- [x] **Checkpoint:** publish. Ask the creator before the app goes online, and wait for their yes. Bestätigt: „Ok“.
+
 
 ## Retrospective
 
