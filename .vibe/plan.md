@@ -228,7 +228,7 @@ it with the listing; the evals compare it across runs. It stays in the creator's
 
 <!-- The last phase you completed and the checkpoints the creator passed. Example: "commit; confirmed, published". -->
 
-commit; Plan bestätigt, veröffentlicht, Eintragen bestätigt. Der Listing-Pull-Request folgt nach dieser Retrospektive.
+commit; Plan bestätigt, veröffentlicht, Eintragen bestätigt. Listing-Pull-Request: https://github.com/lernapps/apps/pull/13 (lokale Prüfung: bestanden).
 
 ### Failed checks
 
