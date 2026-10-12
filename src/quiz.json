@@ -777,6 +777,161 @@
           "url": "https://de.wikipedia.org/wiki/Giant%E2%80%99s_Causeway"
         }
       ]
+    },
+    {
+      "id": "kontinente-zuordnen",
+      "type": "matching",
+      "text": "Ordne jedes Naturwunder dem Kontinent zu, auf dem es liegt.",
+      "pairs": [
+        {
+          "left": "Uluru",
+          "right": "Australien"
+        },
+        {
+          "left": "Sahara",
+          "right": "Afrika"
+        },
+        {
+          "left": "Iguazú-Wasserfälle",
+          "right": "Südamerika"
+        },
+        {
+          "left": "Grand Canyon",
+          "right": "Nordamerika"
+        },
+        {
+          "left": "Baikalsee",
+          "right": "Asien"
+        },
+        {
+          "left": "Matterhorn",
+          "right": "Europa"
+        },
+        {
+          "left": "Vinson-Massiv",
+          "right": "Antarktika"
+        }
+      ],
+      "explanation": "Der Uluru ist ein Inselberg in der Wüste in der Mitte Australiens. Für die Anangu, die dort lebenden Aborigines, ist er heilig. Die Sahara liegt im Norden Afrikas, die Iguazú-Wasserfälle an der Grenze von Argentinien und Brasilien, der Grand Canyon in den USA. Der Baikalsee liegt im asiatischen Teil Russlands, das Matterhorn in den Alpen. Im Vinson-Massiv liegt der höchste Berg Antarktikas.",
+      "links": [
+        {
+          "title": "Uluru (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Uluru"
+        },
+        {
+          "title": "Sahara (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Sahara"
+        },
+        {
+          "title": "Iguazú-Wasserfälle (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Iguaz%C3%BA-Wasserf%C3%A4lle"
+        },
+        {
+          "title": "Grand Canyon (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Grand_Canyon"
+        },
+        {
+          "title": "Baikalsee (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Baikalsee"
+        },
+        {
+          "title": "Matterhorn (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Matterhorn"
+        },
+        {
+          "title": "Vinson-Massiv (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Vinson-Massiv"
+        }
+      ]
+    },
+    {
+      "id": "wuesten-erkennen",
+      "type": "multiple-choice",
+      "text": "Welche dieser Landschaften sind Wüsten? Wähle alle passenden.",
+      "options": [
+        {
+          "text": "Gobi",
+          "correct": true,
+          "info": "Die Gobi in der Mongolei und in China ist eine der größten Wüstenregionen der Erde außerhalb der Polargebiete. Sie ist meist steinig und nur selten sandig.",
+          "link": {
+            "title": "Gobi (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Gobi"
+          }
+        },
+        {
+          "text": "Rub al-Chali",
+          "correct": true,
+          "info": "Die Rub al-Chali bedeckt das südliche Drittel der Arabischen Halbinsel. Sie ist die größte Sandwüste der Erde und fast menschenleer.",
+          "link": {
+            "title": "Rub al-Chali (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Rub_al-Chali"
+          }
+        },
+        {
+          "text": "Serengeti",
+          "correct": false,
+          "info": "Die Serengeti ist eine Savanne im Norden Tansanias und im Süden Kenias. Ihr Name bedeutet „endlose Ebene“.",
+          "link": {
+            "title": "Serengeti (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Serengeti"
+          }
+        },
+        {
+          "text": "Pantanal",
+          "correct": false,
+          "info": "Das Pantanal in Südamerika ist eines der größten Feuchtgebiete der Erde. Bis zu sechs Monate im Jahr steht es unter Wasser.",
+          "link": {
+            "title": "Pantanal (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Pantanal"
+          }
+        }
+      ],
+      "explanation": "Die Gobi und die Rub al-Chali sind Wüsten. Die Serengeti ist eine Savanne, das Pantanal ein Feuchtgebiet, das oft unter Wasser steht.",
+      "links": [
+        {
+          "title": "Gobi (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Gobi"
+        },
+        {
+          "title": "Rub al-Chali (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Rub_al-Chali"
+        }
+      ]
+    },
+    {
+      "id": "hoechste-berge-kontinente",
+      "type": "ordering",
+      "text": "Hier sind die höchsten Berge von fünf Kontinenten. Ordne sie nach ihrer Höhe, den höchsten zuerst.",
+      "items": [
+        "Mount Everest (Asien)",
+        "Aconcagua (Südamerika)",
+        "Denali (Nordamerika)",
+        "Kilimandscharo (Afrika)",
+        "Vinson-Massiv (Antarktika)"
+      ],
+      "explanation": "Der Mount Everest ist rund 8848 m hoch, der Aconcagua rund 6960 m, der Denali 6190 m. Der Kibo am Kilimandscharo ist 5895 m hoch, der Mount Vinson im Vinson-Massiv 4892 m. Diese Berge gehören zu den „Seven Summits“, den höchsten Bergen der sieben Kontinente.",
+      "links": [
+        {
+          "title": "Mount Everest (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Mount_Everest"
+        },
+        {
+          "title": "Aconcagua (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Aconcagua"
+        },
+        {
+          "title": "Denali (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Denali"
+        },
+        {
+          "title": "Kilimandscharo (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Kilimandscharo"
+        },
+        {
+          "title": "Vinson-Massiv (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Vinson-Massiv"
+        }
+      ]
     }
   ],
   "sources": [
@@ -1019,6 +1174,26 @@
     {
       "title": "Giant’s Causeway, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
       "url": "https://de.wikipedia.org/wiki/Giant%E2%80%99s_Causeway"
+    },
+    {
+      "title": "Uluru, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Uluru"
+    },
+    {
+      "title": "Vinson-Massiv, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Vinson-Massiv"
+    },
+    {
+      "title": "Rub al-Chali, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Rub_al-Chali"
+    },
+    {
+      "title": "Serengeti, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Serengeti"
+    },
+    {
+      "title": "Pantanal, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Pantanal"
     }
   ]
 }
