@@ -39,6 +39,9 @@ Mark a choice you made without asking the creator with "(guess)", and list it in
 
 <!-- What you need later: sources and licences of content, links, open questions. -->
 
+- Skill lernapps-quiz und Schema quiz.v1 gelesen: Jede Antwortmöglichkeit (single/multiple choice) kann einen eigenen `link` haben → für jede Option ein Wikipedia-Artikel. Bei Fragen ohne Optionen (wahr/falsch, Zahl, Reihenfolge, Zuordnung) stehen alle Artikel in `links` der Frage.
+- Das Schema kennt keine Gruppen/Kategorien: Ein Quiz ist eine Seite mit allen Fragen in gemischter Reihenfolge. Gruppen wären nur über die Reihenfolge ohne JavaScript, Frage-IDs und Deep-Links (#frage-<id>) darstellbar. Offene Frage an die Erstellerin/den Ersteller.
+- Quelle: deutschsprachige Wikipedia (CC BY-SA); Texte in eigenen Worten (quiz-own-words), Artikel in `sources`.
 - Später möglich: zweite Rubrik Biologie (nicht Teil dieses Plans).
 - Eintrags-Schema gelesen (entry.v1): Pflicht sind title, subject, grades, summary, url, creator, fitness.
 
@@ -69,6 +72,8 @@ from earlier answers. Write each answer under "Answers".
 
 - Thema: „Es soll ein Naturwunder-Quiz werden.“
 - Inhalt/Fach: „Gruppierungen wären toll, sowohl thematisch als auch geografisch. Ich würde das erst einmal auf Geografie beschränken. Wenn es gut funktioniert, können wir danach auch etwas für Biologie machen, aber das wäre eine zweite Rubrik.“
+- Lernende: „Es geht um Kinder aus dem Gymnasium und Realschulen oder anderen weiterführenden Schulen, wir können also davon ausgehen, dass sie schon wissen, was Ozeane oder was Kontinente sind.“
+- Inhalte: „Das Quiz soll außerdem neugierig machen und zum weiteren Nachlesen anregen, nutze daher bitte Einträge aus Wikipedia, so dass sie auch fundiert sind. Verknüpfe die Artikel bei jeder Antwort, auch bei den falschen.“
 
 ### Entry draft
 
