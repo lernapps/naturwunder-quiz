@@ -490,6 +490,128 @@
           "url": "https://de.wikipedia.org/wiki/Antarktika"
         }
       ]
+    },
+    {
+      "id": "grand-canyon",
+      "type": "single-choice",
+      "text": "Welcher Fluss hat den Grand Canyon in den USA geformt?",
+      "options": [
+        {
+          "text": "Colorado",
+          "correct": true,
+          "info": "Der Colorado ist der größte Fluss im Südwesten Nordamerikas und rund 2330 km lang. Viele Menschen in der Gegend brauchen sein Wasser für Felder und als Trinkwasser.",
+          "link": {
+            "title": "Colorado River (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Colorado_River"
+          }
+        },
+        {
+          "text": "Sambesi",
+          "correct": false,
+          "info": "Der Sambesi fließt durch das südliche Afrika in den Indischen Ozean. An den Victoriafällen stürzt er in eine tiefe Schlucht.",
+          "link": {
+            "title": "Sambesi (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Sambesi"
+          }
+        },
+        {
+          "text": "Jangtsekiang",
+          "correct": false,
+          "info": "Der Jangtsekiang ist der längste Fluss Asiens. Er teilt China in einen nördlichen und einen südlichen Teil.",
+          "link": {
+            "title": "Jangtsekiang (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Jangtsekiang"
+          }
+        },
+        {
+          "text": "Amazonas",
+          "correct": false,
+          "info": "Der Amazonas fließt durch den tropischen Regenwald im Norden Südamerikas. Kein anderer Fluss führt so viel Wasser.",
+          "link": {
+            "title": "Amazonas (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Amazonas"
+          }
+        }
+      ],
+      "explanation": "Der Grand Canyon ist eine steile Schlucht in Arizona, etwa 450 km lang. Der Colorado hat sie über Millionen von Jahren in das Gestein gegraben. Jedes Jahr besuchen Millionen Menschen die Schlucht.",
+      "links": [
+        {
+          "title": "Grand Canyon (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Grand_Canyon"
+        }
+      ]
+    },
+    {
+      "id": "hoehlen-rekorde",
+      "type": "matching",
+      "text": "Ordne jeder Höhle zu, wofür sie bekannt ist.",
+      "pairs": [
+        {
+          "left": "Sơn-Đoòng-Höhle (Vietnam)",
+          "right": "größter bekannter Höhlengang der Welt"
+        },
+        {
+          "left": "Mammut-Höhle (USA)",
+          "right": "weitläufigste bekannte Höhle, über 675 km kartiert"
+        },
+        {
+          "left": "Eisriesenwelt (Österreich)",
+          "right": "größte Eishöhle der Welt"
+        },
+        {
+          "left": "Höhlen von Postojna (Slowenien)",
+          "right": "Besucher fahren 3,5 km mit einem Zug hinein"
+        }
+      ],
+      "explanation": "Der größte Gang der Sơn-Đoòng-Höhle ist über 250 m hoch, 150 m breit und neun Kilometer lang. Von der Mammut-Höhle in Kentucky sind über 675 km kartiert. Die Eisriesenwelt im Land Salzburg ist 42 km lang. In den Höhlen von Postojna fahren Besucher 3,5 km mit einem Zug.",
+      "links": [
+        {
+          "title": "Sơn-Đoòng-Höhle (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/S%C6%A1n-%C4%90o%C3%B2ng-H%C3%B6hle"
+        },
+        {
+          "title": "Mammoth-Cave-Nationalpark (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Mammoth-Cave-Nationalpark"
+        },
+        {
+          "title": "Eisriesenwelt (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Eisriesenwelt"
+        },
+        {
+          "title": "Höhlen von Postojna (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/H%C3%B6hlen_von_Postojna"
+        }
+      ]
+    },
+    {
+      "id": "son-doong-dschungel",
+      "type": "true-false",
+      "text": "In der Sơn-Đoòng-Höhle in Vietnam gibt es einen eigenen Dschungel.",
+      "answer": true,
+      "explanation": "Das stimmt. Die Sơn-Đoòng-Höhle besteht aus mindestens 150 einzelnen Höhlen mit Seen, Flüssen und einem eigenen Dschungel. Entdeckt wurde sie 1991, erforscht erst 2009. Seit 2013 dürfen jedes Jahr nur wenige Besucher hinein.",
+      "links": [
+        {
+          "title": "Sơn-Đoòng-Höhle (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/S%C6%A1n-%C4%90o%C3%B2ng-H%C3%B6hle"
+        }
+      ]
+    },
+    {
+      "id": "waitomo-leuchten",
+      "type": "true-false",
+      "text": "In den Waitomo Caves in Neuseeland leuchten Käfer an der Höhlendecke, wie die Glühwürmchen bei uns.",
+      "answer": false,
+      "explanation": "Das stimmt nicht. Das bläuliche Licht kommt von den Larven einer Mückenart, die nur in Neuseeland lebt. Die Larven hängen an der Decke und lassen klebrige Fäden herab. Das Licht lockt Insekten an, die sich in den Fäden fangen.",
+      "links": [
+        {
+          "title": "Waitomo Caves (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Waitomo_Caves"
+        },
+        {
+          "title": "Arachnocampa luminosa (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Arachnocampa_luminosa"
+        }
+      ]
     }
   ],
   "sources": [
@@ -636,6 +758,38 @@
     {
       "title": "Antarktika, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
       "url": "https://de.wikipedia.org/wiki/Antarktika"
+    },
+    {
+      "title": "Colorado River, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Colorado_River"
+    },
+    {
+      "title": "Grand Canyon, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Grand_Canyon"
+    },
+    {
+      "title": "Sơn-Đoòng-Höhle, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/S%C6%A1n-%C4%90o%C3%B2ng-H%C3%B6hle"
+    },
+    {
+      "title": "Mammoth-Cave-Nationalpark, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Mammoth-Cave-Nationalpark"
+    },
+    {
+      "title": "Eisriesenwelt, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Eisriesenwelt"
+    },
+    {
+      "title": "Höhlen von Postojna, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/H%C3%B6hlen_von_Postojna"
+    },
+    {
+      "title": "Waitomo Caves, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Waitomo_Caves"
+    },
+    {
+      "title": "Arachnocampa luminosa, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Arachnocampa_luminosa"
     }
   ]
 }
