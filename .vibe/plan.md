@@ -50,6 +50,8 @@ Mark a choice you made without asking the creator with "(guess)", and list it in
 - Skill lernapps-quiz und Schema quiz.v1 gelesen: Jede Antwortmöglichkeit (single/multiple choice) kann einen eigenen `link` haben → für jede Option ein Wikipedia-Artikel. Bei Fragen ohne Optionen (wahr/falsch, Zahl, Reihenfolge, Zuordnung) stehen alle Artikel in `links` der Frage.
 - Das Schema kennt keine Gruppen/Kategorien: Ein Quiz ist eine Seite mit allen Fragen in gemischter Reihenfolge. Gruppen wären nur über die Reihenfolge ohne JavaScript, Frage-IDs und Deep-Links (#frage-<id>) darstellbar. Entschieden: Vorschlag A (siehe Key decisions).
 - Quelle: deutschsprachige Wikipedia (CC BY-SA); Texte in eigenen Worten (quiz-own-words), Artikel in `sources`.
+- Alle 65 Wikipedia-Links geöffnet (Status 200, richtiger Artikel, keine Begriffsklärung, keine Weiterleitung). Fakten am Wikitext der Artikel geprüft (Stand 12.10.2026).
+- `npx lernapps check` (12.10.2026): 104 von 106 Tests bestanden. Der Laufzeit-Test „all right answers give the full score“ überschreitet sein Zeitlimit von 30 s: Er kam bis Frage 21 (desktop) bzw. 16 (360px) von 25. Ursache: `scroll-behavior: smooth` im Quiz-Baustein, jeder Klick wartet, bis die Seite still steht (rund 1,2–1,8 s pro Frage). Auch allein ausgeführt scheitert er. Weder Test noch Konfiguration darf die App ändern (`quiz-only-data`, `keep-the-preset`). Offene Frage an den Ersteller.
 - Später möglich: zweite Rubrik Biologie (nicht Teil dieses Plans).
 - Eintrags-Schema gelesen (entry.v1): Pflicht sind title, subject, grades, summary, url, creator, fitness.
 
