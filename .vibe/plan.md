@@ -200,8 +200,6 @@ another branch until the creator says yes.
 
 ### Tasks
 
-- [ ] **Checkpoint:** list. Ask the creator before you open the listing pull request, and wait for their yes.
-- [ ] Fill the retrospective.
 - [ ] Open the listing pull request as the skill says, and see it through to "bestanden".
 
 ### Completed
@@ -215,6 +213,8 @@ another branch until the creator says yes.
 - [x] Open the address the job `deploy` printed ("published at ...") and confirm that it shows the app. Veröffentlicht unter https://lernapps.net/naturwunder-quiz/, Titel „Naturwunder-Quiz“ erscheint.
 - [x] Load the skill `lernapps-listing`.
 - [x] Complete the entry draft with what is known now, such as the app's address. `lernapps check --entry`: ok, keine Befunde.
+- [x] **Checkpoint:** list. Ask the creator before you open the listing pull request, and wait for their yes. Bestätigt: „Ja, sieht gut aus“.
+- [x] Fill the retrospective.
 
 
 ## Retrospective
@@ -228,6 +228,8 @@ it with the listing; the evals compare it across runs. It stays in the creator's
 
 <!-- The last phase you completed and the checkpoints the creator passed. Example: "commit; confirmed, published". -->
 
+commit; Plan bestätigt, veröffentlicht, Eintragen bestätigt. Der Listing-Pull-Request folgt nach dieser Retrospektive.
+
 ### Failed checks
 
 <!--
@@ -235,9 +237,20 @@ Each check that failed, with its rule id and how often. Example: "`no-request-be
 Leave out the failed pre-push runs: the hook counts them in the front matter.
 -->
 
+- `checks-pass`: 1 (`npx lernapps check`: Laufzeit-Test „all right answers give the full score“ überschritt mit 25 Fragen sein Zeitlimit von 30 s; behoben durch das neue `@lernapps/app-templates` a876fb9, auf das der Ersteller hinwies).
+- `pages-from-gh-pages`: 1 (erster Lauf „Pages“ auf `main`: GitHub Pages war aus, die Action durfte es nicht einschalten, HTTP 403; der Ersteller hat Pages eingestellt, die Wiederholung lief durch).
+
 ### Creator turns after the plan
 
 <!-- How many messages the creator sent after confirming the plan, and what each was about. Target: at most 3. -->
+
+6 Nachrichten:
+1. „Woran hängt es?“ – Frage nach dem Stand, nachdem er die lange Endprüfung abgebrochen hatte.
+2. „Weiter“ – Freigabe, die Endprüfung laufen zu lassen.
+3. „Es gibt ein Update des Template …“ – Hinweis auf die Korrektur des Quiz-Bausteins.
+4. „Ok“ – Checkpoint Veröffentlichen.
+5. „Erledigt“ – GitHub Pages eingestellt (nur ein Admin darf das).
+6. „Ja, sieht gut aus“ – Checkpoint Eintragen.
 
 ### Where I had to guess
 
@@ -245,3 +258,13 @@ Leave out the failed pre-push runs: the hook counts them in the front matter.
 Each place where this plan, a skill, a message or the creator's answers did not tell you what to do, and what you
 chose. Write "None" if there was none.
 -->
+
+- Gruppen: Der Quiz-Baustein kennt keine Gruppen; Gruppen nur über Auswahl, Reihenfolge ohne JavaScript und Deep-Links (mit dem Ersteller abgestimmt).
+- `rememberLastResult` aus, also `fitness.storage: none`.
+- `creator.url` aus „@mrsimpson“ abgeleitet: https://github.com/mrsimpson.
+- Die Frage-ID `grand-canyon` stammt aus der nie veröffentlichten Beispielbank; ich habe sie für die neue Frage zum selben Thema weiterverwendet.
+- Einige Beispiele im Plan geändert, wo die deutsche Wikipedia die Aussage nicht trägt (z. B. Salto Ángel nur „einer der höchsten“ Wasserfälle; deshalb kein „höchster Wasserfall“-Satz).
+- `sources` listet jeden verlinkten Artikel mit Lizenz CC BY-SA 4.0; die Texte sind in eigenen Worten.
+- Wikipedia-API antwortete mit 429; Fakten am Wikitext (`action=raw`) geprüft, Links einzeln mit Pausen geöffnet.
+- Fehler im Quiz-Baustein (Zeitlimit) nicht im Code umgangen, sondern dem Ersteller gemeldet (`quiz-only-data`).
+
