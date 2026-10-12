@@ -93,7 +93,7 @@ summary: >-
   Im Quiz beantworten Schülerinnen und Schüler Fragen zu Naturwundern der Erde: Gebirge und Vulkane, Wasserfälle,
   Wüsten, Höhlen, Küsten und Riffe auf allen Kontinenten. Nach jeder Antwort lesen sie kurz zu jeder Möglichkeit
   und können im Wikipedia-Artikel weiterlesen.
-# url: kommt nach der Veröffentlichung
+url: https://lernapps.net/naturwunder-quiz/
 topics:
   - title: Gebirge und Vulkane
     path: "#frage-everest-hoehe"
@@ -200,13 +200,6 @@ another branch until the creator says yes.
 
 ### Tasks
 
-- [ ] Merge your branch into `main` and push `main`. Watch the run of the workflow `Pages` on `main` until it ends
-      (for example `gh run watch`, or the Actions tab of the repo). If it fails, read the message of the failed step:
-      fix what you can and push again; for a setting only a repository admin may change, tell the creator the exact
-      clicks the message names, and run the workflow again when they are done.
-- [ ] Open the address the job `deploy` printed ("published at ...") and confirm that it shows the app.
-- [ ] Load the skill `lernapps-listing`.
-- [ ] Complete the entry draft with what is known now, such as the app's address.
 - [ ] **Checkpoint:** list. Ask the creator before you open the listing pull request, and wait for their yes.
 - [ ] Fill the retrospective.
 - [ ] Open the listing pull request as the skill says, and see it through to "bestanden".
@@ -215,6 +208,13 @@ another branch until the creator says yes.
 
 - [x] Push your branch (not `main`). The pre-push hook runs the heavy checks; fix what fails.
 - [x] **Checkpoint:** publish. Ask the creator before the app goes online, and wait for their yes. Bestätigt: „Ok“.
+- [x] Merge your branch into `main` and push `main`. Watch the run of the workflow `Pages` on `main` until it ends
+      (for example `gh run watch`, or the Actions tab of the repo). If it fails, read the message of the failed step:
+      fix what you can and push again; for a setting only a repository admin may change, tell the creator the exact
+      clicks the message names, and run the workflow again when they are done. Lauf „Pages“ fehlgeschlagen (GitHub Pages aus, HTTP 403); der Ersteller hat Pages eingestellt; Wiederholung erfolgreich.
+- [x] Open the address the job `deploy` printed ("published at ...") and confirm that it shows the app. Veröffentlicht unter https://lernapps.net/naturwunder-quiz/, Titel „Naturwunder-Quiz“ erscheint.
+- [x] Load the skill `lernapps-listing`.
+- [x] Complete the entry draft with what is known now, such as the app's address. `lernapps check --entry`: ok, keine Befunde.
 
 
 ## Retrospective
