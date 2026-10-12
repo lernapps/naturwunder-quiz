@@ -159,7 +159,6 @@ one of them, stop and ask the creator to allow it, then run the command again. N
 
 ### Tasks
 
-- [ ] Rahmen und Thema „Gebirge und Vulkane“: Beispiel ersetzen; Titel, Einleitung, `sources`; 5 Fragen (z. B. Mount Everest, Kilimandscharo, Ätna, Matterhorn, Aconcagua; Typen gemischt).
 - [ ] Thema „Wasserfälle, Flüsse und Seen“: 5 Fragen (z. B. Victoriafälle, Iguazú-Wasserfälle, Niagarafälle, Baikalsee, Amazonas).
 - [ ] Thema „Wüsten“: 4 Fragen (z. B. Sahara, Atacama, Namib, Antarktis als Kältewüste).
 - [ ] Thema „Höhlen und Schluchten“: 4 Fragen (z. B. Grand Canyon, Eisriesenwelt, Sơn-Đoòng-Höhle, Waitomo-Glühwürmchenhöhlen).
@@ -179,6 +178,8 @@ one of them, stop and ask the creator to allow it, then run the command again. N
       hooks.
 - [x] Commit what the generator wrote, with this plan: the first commit.
 - [x] Load the skill `lernapps-app` and the skill of the archetype.
+- [x] Rahmen und Thema „Gebirge und Vulkane“: Beispiel ersetzen; Titel, Einleitung, `sources`; 5 Fragen (z. B. Mount Everest, Kilimandscharo, Ätna, Matterhorn, Aconcagua; Typen gemischt).
+
 
 ## Commit
 

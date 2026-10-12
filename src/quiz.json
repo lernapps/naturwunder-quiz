@@ -1,129 +1,16 @@
 {
   "$schema": "../node_modules/@lernapps/app-templates/runtime/quiz/quiz.v1.schema.json",
-  "title": "Naturwunder der Welt",
-  "intro": "Acht Fragen zu Bergen, Flüssen, Wasserfällen und Inseln auf der ganzen Erde. Für die Klassen 5 bis 7.",
+  "title": "Naturwunder-Quiz",
+  "intro": "Fragen zu Bergen und Vulkanen, Wasserfällen, Wüsten, Höhlen und Küsten auf allen Kontinenten. Für die Klassen 5 bis 10. Nach jeder Antwort kannst du bei Wikipedia weiterlesen.",
   "questions": [
-    {
-      "id": "grand-canyon",
-      "type": "single-choice",
-      "text": "Welcher Fluss hat den Grand Canyon in den USA geformt?",
-      "options": [
-        {
-          "text": "Colorado",
-          "correct": true,
-          "info": "Der Colorado ist der größte Fluss im Südwesten Nordamerikas. Er ist gut 2300 km lang.",
-          "link": {
-            "title": "Colorado River (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Colorado_River"
-          }
-        },
-        {
-          "text": "Nil",
-          "correct": false,
-          "info": "Der Nil fließt durch mehrere Länder Afrikas und mündet in Ägypten ins Mittelmeer. Mit rund 6650 km gilt er als längster Fluss der Erde.",
-          "link": {
-            "title": "Nil (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Nil"
-          }
-        },
-        {
-          "text": "Amazonas",
-          "correct": false,
-          "info": "Der Amazonas fließt durch den Norden Südamerikas bis in den Atlantik. Kein anderer Fluss der Erde führt so viel Wasser.",
-          "link": {
-            "title": "Amazonas (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Amazonas"
-          }
-        },
-        {
-          "text": "Sambesi",
-          "correct": false,
-          "info": "Der Sambesi ist ein Fluss in Afrika. An den Victoriafällen stürzt er als sehr breiter Wasserfall in die Tiefe."
-        }
-      ],
-      "explanation": "Der Grand Canyon ist eine steile Schlucht im US-Bundesstaat Arizona, etwa 450 km lang. Der Colorado hat sie über Millionen von Jahren in das Gestein gegraben.",
-      "links": [
-        {
-          "title": "Grand Canyon (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Grand_Canyon"
-        }
-      ]
-    },
-    {
-      "id": "weltnaturerbe",
-      "type": "multiple-choice",
-      "text": "Welche dieser Naturwunder hat die UNESCO zum Weltnaturerbe erklärt? Wähle alle passenden.",
-      "options": [
-        {
-          "text": "Halong-Bucht",
-          "correct": true,
-          "info": "Die Halong-Bucht liegt im Norden Vietnams. Fast 2000 Felsen aus Kalkstein ragen dort aus dem Meer. Seit 1994 ist sie Weltnaturerbe.",
-          "link": {
-            "title": "Halong-Bucht (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Halong-Bucht"
-          }
-        },
-        {
-          "text": "Kilimandscharo",
-          "correct": true,
-          "info": "Der Kilimandscharo ist eine Gruppe von Bergen in Tansania. Sein höchster Gipfel, der Kibo, ist der höchste Berg Afrikas. Seit 1987 ist die Landschaft Weltnaturerbe.",
-          "link": {
-            "title": "Kilimandscharo (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Kilimandscharo"
-          }
-        },
-        {
-          "text": "Victoriafälle",
-          "correct": true,
-          "info": "Die Victoriafälle sind ein sehr breiter Wasserfall des Flusses Sambesi in Afrika. Seit 1989 gehören sie zum Weltnaturerbe.",
-          "link": {
-            "title": "Victoriafälle (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Victoriaf%C3%A4lle"
-          }
-        },
-        {
-          "text": "Mont Blanc",
-          "correct": false,
-          "info": "Der Mont Blanc an der Grenze zwischen Frankreich und Italien ist der höchste Berg der Alpen. Seit dem Jahr 2000 steht er nur auf der Liste der Vorschläge für das Welterbe.",
-          "link": {
-            "title": "Mont Blanc (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Mont_Blanc"
-          }
-        }
-      ],
-      "explanation": "Die UNESCO schützt besondere Landschaften als Weltnaturerbe. Die Halong-Bucht, der Kilimandscharo und die Victoriafälle gehören dazu. Der Mont Blanc ist bisher nur vorgeschlagen.",
-      "links": [
-        {
-          "title": "Halong-Bucht (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Halong-Bucht"
-        },
-        {
-          "title": "Kilimandscharo (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Kilimandscharo"
-        }
-      ]
-    },
-    {
-      "id": "totes-meer",
-      "type": "true-false",
-      "text": "Das Tote Meer liegt tiefer als der Meeresspiegel.",
-      "answer": true,
-      "explanation": "Das Tote Meer liegt mehr als 440 m unter dem Meeresspiegel. Kein anderer See der Erde liegt so tief. Sein Wasser ist sehr salzig, und der Fluss Jordan fließt hinein.",
-      "links": [
-        {
-          "title": "Totes Meer (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Totes_Meer"
-        }
-      ]
-    },
     {
       "id": "everest-hoehe",
       "type": "number",
-      "text": "Wie hoch ist der Mount Everest? Gib die Höhe in Metern an. Bis zu 100 m daneben zählt noch als richtig.",
+      "text": "Der Mount Everest ist der höchste Berg der Erde. Wie hoch ist er über dem Meeresspiegel? Bis zu 100 m daneben zählt noch als richtig.",
       "answer": 8848,
       "tolerance": 100,
       "unit": "m",
-      "explanation": "Der Mount Everest im Himalaya ist mit etwas mehr als 8848 m der höchste Berg der Erde. Er liegt an der Grenze zwischen Nepal und China. Als Erste standen Edmund Hillary und Tenzing Norgay im Jahr 1953 auf seinem Gipfel.",
+      "explanation": "Der Mount Everest ist rund 8848 m hoch. Er liegt im Himalaya an der Grenze zwischen Nepal und China. 1953 standen Edmund Hillary und Tenzing Norgay als erste Menschen auf seinem Gipfel.",
       "links": [
         {
           "title": "Mount Everest (Wikipedia)",
@@ -132,111 +19,237 @@
       ]
     },
     {
-      "id": "berge-ordnen",
-      "type": "ordering",
-      "text": "Ordne die Berge nach ihrer Höhe, vom niedrigsten zum höchsten.",
-      "items": ["Zugspitze", "Mont Blanc", "Kilimandscharo", "Mount Everest"],
-      "explanation": "Die Zugspitze ist mit 2962 m der höchste Berg Deutschlands. Der Mont Blanc ist mit etwa 4807 m der höchste Berg der Alpen. Der Kibo am Kilimandscharo ist mit 5895 m der höchste Berg Afrikas, und der Mount Everest ist mit über 8848 m der höchste Berg der Erde.",
+      "id": "kilimandscharo-land",
+      "type": "single-choice",
+      "text": "Der Kilimandscharo ist das höchste Bergmassiv Afrikas. In welchem Land liegt er?",
+      "options": [
+        {
+          "text": "Tansania",
+          "correct": true,
+          "info": "Tansania liegt in Ostafrika am Indischen Ozean. Das Land ist etwa zweieinhalbmal so groß wie Deutschland.",
+          "link": {
+            "title": "Tansania (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Tansania"
+          }
+        },
+        {
+          "text": "Kenia",
+          "correct": false,
+          "info": "Kenia ist ein Staat in Ostafrika und grenzt im Süden an Tansania. Die Hauptstadt ist Nairobi.",
+          "link": {
+            "title": "Kenia (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Kenia"
+          }
+        },
+        {
+          "text": "Äthiopien",
+          "correct": false,
+          "info": "Äthiopien liegt am Horn von Afrika und hat keinen Zugang zum Meer. Es gilt als Ursprungsland des Kaffees.",
+          "link": {
+            "title": "Äthiopien (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/%C3%84thiopien"
+          }
+        },
+        {
+          "text": "Uganda",
+          "correct": false,
+          "info": "Uganda ist ein Staat in Ostafrika ohne Zugang zum Meer. Ein Teil seiner Grenzen verläuft durch den Victoriasee.",
+          "link": {
+            "title": "Uganda (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Uganda"
+          }
+        }
+      ],
+      "explanation": "Der Kilimandscharo liegt im Nordosten von Tansania, nahe der Grenze zu Kenia. Sein höchster Gipfel, der Kibo, ist mit 5895 m der höchste Berg Afrikas. Seine Eiskappe schmilzt wegen der Erderwärmung schnell.",
       "links": [
         {
-          "title": "Zugspitze (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Zugspitze"
+          "title": "Kilimandscharo (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Kilimandscharo"
+        }
+      ]
+    },
+    {
+      "id": "aetna-vulkan",
+      "type": "single-choice",
+      "text": "Welcher Vulkan ist der höchste aktive Vulkan Europas?",
+      "options": [
+        {
+          "text": "Ätna",
+          "correct": true,
+          "info": "Der Ätna liegt auf der Insel Sizilien in Italien. Er ist rund 3400 m hoch und einer der aktivsten Vulkane der Welt.",
+          "link": {
+            "title": "Ätna (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/%C3%84tna"
+          }
+        },
+        {
+          "text": "Vesuv",
+          "correct": false,
+          "info": "Der Vesuv liegt bei Neapel in Italien und ist rund 1280 m hoch. Im Jahr 79 n. Chr. verschüttete ein Ausbruch die Stadt Pompeji.",
+          "link": {
+            "title": "Vesuv (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Vesuv"
+          }
+        },
+        {
+          "text": "Stromboli",
+          "correct": false,
+          "info": "Stromboli ist eine kleine Insel nördlich von Sizilien. Der Vulkan ragt dort etwa 920 m aus dem Meer.",
+          "link": {
+            "title": "Stromboli (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Stromboli"
+          }
+        },
+        {
+          "text": "Hekla",
+          "correct": false,
+          "info": "Die Hekla ist ein rund 1490 m hoher Vulkan im Süden Islands. Sie gehört zu den aktivsten Vulkanen der Insel.",
+          "link": {
+            "title": "Hekla (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Hekla"
+          }
+        }
+      ],
+      "explanation": "Der Ätna ist mit rund 3400 m viel höher als die anderen aktiven Vulkane Europas. Seit 2013 gehört er zum Weltnaturerbe der UNESCO.",
+      "links": [
+        {
+          "title": "Ätna (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/%C3%84tna"
+        }
+      ]
+    },
+    {
+      "id": "aconcagua",
+      "type": "single-choice",
+      "text": "Welcher Berg ist der höchste Berg Amerikas?",
+      "options": [
+        {
+          "text": "Aconcagua",
+          "correct": true,
+          "info": "Der Aconcagua liegt in den Anden in Argentinien. Mit rund 6960 m ist er der höchste Berg außerhalb Asiens.",
+          "link": {
+            "title": "Aconcagua (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Aconcagua"
+          }
+        },
+        {
+          "text": "Denali",
+          "correct": false,
+          "info": "Der Denali in Alaska ist mit 6190 m der höchste Berg Nordamerikas. Er heißt auch Mount McKinley.",
+          "link": {
+            "title": "Denali (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Denali"
+          }
+        },
+        {
+          "text": "Chimborazo",
+          "correct": false,
+          "info": "Der Chimborazo ist ein 6263 m hoher Vulkan in Ecuador. Weil er nah am Äquator liegt, ist sein Gipfel der Punkt der Erdoberfläche, der am weitesten vom Erdmittelpunkt entfernt ist.",
+          "link": {
+            "title": "Chimborazo (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Chimborazo"
+          }
+        },
+        {
+          "text": "Mount Logan",
+          "correct": false,
+          "info": "Der Mount Logan im Yukon ist der höchste Berg Kanadas. In Nordamerika ist nur der Denali höher.",
+          "link": {
+            "title": "Mount Logan (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Mount_Logan"
+          }
+        }
+      ],
+      "explanation": "Der Aconcagua in Argentinien ist rund 6960 m hoch. Kein Berg in Nord- oder Südamerika ist höher. Höhere Berge gibt es nur in Asien.",
+      "links": [
+        {
+          "title": "Aconcagua (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Aconcagua"
+        }
+      ]
+    },
+    {
+      "id": "matterhorn-alpen",
+      "type": "true-false",
+      "text": "Das Matterhorn ist der höchste Berg der Alpen.",
+      "answer": false,
+      "explanation": "Das stimmt nicht. Das Matterhorn an der Grenze zwischen der Schweiz und Italien ist 4478 m hoch und wegen seiner Form sehr bekannt. Der höchste Berg der Alpen ist aber der Mont Blanc an der Grenze zwischen Frankreich und Italien. Er ist rund 4800 m hoch.",
+      "links": [
+        {
+          "title": "Matterhorn (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Matterhorn"
         },
         {
           "title": "Mont Blanc (Wikipedia)",
           "url": "https://de.wikipedia.org/wiki/Mont_Blanc"
         }
       ]
-    },
-    {
-      "id": "wasserfaelle-laender",
-      "type": "matching",
-      "text": "Zwischen welchen Ländern liegen diese Wasserfälle?",
-      "pairs": [
-        {
-          "left": "Niagarafälle",
-          "right": "USA und Kanada"
-        },
-        {
-          "left": "Victoriafälle",
-          "right": "Simbabwe und Sambia"
-        },
-        {
-          "left": "Iguazú-Wasserfälle",
-          "right": "Brasilien und Argentinien"
-        }
-      ],
-      "explanation": "Alle drei Wasserfälle liegen an einer Grenze: die Niagarafälle zwischen dem US-Bundesstaat New York und der kanadischen Provinz Ontario, die Victoriafälle zwischen Simbabwe und Sambia, die Iguazú-Wasserfälle zwischen Brasilien und Argentinien.",
-      "links": [
-        {
-          "title": "Niagarafälle (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Niagaraf%C3%A4lle"
-        },
-        {
-          "title": "Iguazú-Wasserfälle (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Iguaz%C3%BA-Wasserf%C3%A4lle"
-        }
-      ]
-    },
-    {
-      "id": "galapagos",
-      "type": "single-choice",
-      "text": "Welche Inseln liegen im Pazifik am Äquator, etwa 1000 km vor der Küste Südamerikas?",
-      "options": [
-        {
-          "text": "Galapagosinseln",
-          "correct": true,
-          "info": "Die Galapagosinseln gehören zu Ecuador. Ihr Name kommt von Riesenschildkröten, deren Panzer bei manchen Arten wie ein Sattel aussieht.",
-          "link": {
-            "title": "Galapagosinseln (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Galapagosinseln"
-          }
-        },
-        {
-          "text": "Halong-Bucht",
-          "correct": false,
-          "info": "Die Halong-Bucht liegt im Norden Vietnams, also in Asien. Dort ragen fast 2000 Felsen aus Kalkstein aus dem Meer.",
-          "link": {
-            "title": "Halong-Bucht (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Halong-Bucht"
-          }
-        },
-        {
-          "text": "Great Barrier Reef",
-          "correct": false,
-          "info": "Das Great Barrier Reef liegt vor der Nordostküste Australiens. Es besteht aus über 2900 einzelnen Korallenriffen und ist mehr als 2300 km lang.",
-          "link": {
-            "title": "Great Barrier Reef (Wikipedia)",
-            "url": "https://de.wikipedia.org/wiki/Great_Barrier_Reef"
-          }
-        }
-      ],
-      "explanation": "Die Galapagosinseln liegen am Äquator, etwa 1000 km westlich der Küste Ecuadors. Ihre Pflanzen und Tiere sind einmalig. Deshalb steht fast die ganze Inselgruppe unter strengem Naturschutz.",
-      "links": [
-        {
-          "title": "Galapagosinseln (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Galapagosinseln"
-        }
-      ]
-    },
-    {
-      "id": "uluru",
-      "type": "true-false",
-      "text": "Den Uluru in Australien darf man heute besteigen.",
-      "answer": false,
-      "explanation": "Der Uluru ist ein Berg in der Wüste Zentralaustraliens, etwa 350 m höher als das Land um ihn herum. Für die Anangu, die Aborigines dort, ist er heilig. Seit Oktober 2019 ist es verboten, ihn zu besteigen.",
-      "links": [
-        {
-          "title": "Uluru (Wikipedia)",
-          "url": "https://de.wikipedia.org/wiki/Uluru"
-        }
-      ]
     }
   ],
   "sources": [
     {
-      "title": "Wikipedia, die freie Enzyklopädie: die oben verlinkten Artikel, abgerufen im Oktober 2026",
-      "url": "https://de.wikipedia.org/wiki/Wikipedia:Hauptseite"
+      "title": "Mount Everest, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Mount_Everest"
+    },
+    {
+      "title": "Tansania, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Tansania"
+    },
+    {
+      "title": "Kenia, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Kenia"
+    },
+    {
+      "title": "Äthiopien, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/%C3%84thiopien"
+    },
+    {
+      "title": "Uganda, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Uganda"
+    },
+    {
+      "title": "Kilimandscharo, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Kilimandscharo"
+    },
+    {
+      "title": "Ätna, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/%C3%84tna"
+    },
+    {
+      "title": "Vesuv, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Vesuv"
+    },
+    {
+      "title": "Stromboli, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Stromboli"
+    },
+    {
+      "title": "Hekla, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Hekla"
+    },
+    {
+      "title": "Aconcagua, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Aconcagua"
+    },
+    {
+      "title": "Denali, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Denali"
+    },
+    {
+      "title": "Chimborazo, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Chimborazo"
+    },
+    {
+      "title": "Mount Logan, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Mount_Logan"
+    },
+    {
+      "title": "Matterhorn, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Matterhorn"
+    },
+    {
+      "title": "Mont Blanc, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Mont_Blanc"
     }
   ]
 }
