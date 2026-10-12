@@ -399,6 +399,97 @@
           "url": "https://de.wikipedia.org/wiki/Amazonas"
         }
       ]
+    },
+    {
+      "id": "sahara-flaeche",
+      "type": "number",
+      "text": "Die Sahara ist die größte Trockenwüste der Erde. Wie groß ist ihre Fläche ungefähr, in Millionen Quadratkilometern? Bis zu 1 Million daneben zählt noch als richtig.",
+      "answer": 9,
+      "tolerance": 1,
+      "unit": "Millionen km²",
+      "explanation": "Die Sahara ist über neun Millionen Quadratkilometer groß. Das ist fast so viel wie die ganzen USA und etwa 26-mal so viel wie Deutschland. Sie reicht vom Atlantik bis zum Roten Meer.",
+      "links": [
+        {
+          "title": "Sahara (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Sahara"
+        }
+      ]
+    },
+    {
+      "id": "atacama",
+      "type": "single-choice",
+      "text": "Welche Wüste ist die trockenste Wüste der Erde außerhalb der Polargebiete?",
+      "options": [
+        {
+          "text": "Atacama",
+          "correct": true,
+          "info": "Die Atacama liegt an der Pazifikküste Südamerikas, vor allem in Chile. An manchen Orten hat es dort jahrzehntelang nicht geregnet.",
+          "link": {
+            "title": "Atacama-Wüste (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Atacama-W%C3%BCste"
+          }
+        },
+        {
+          "text": "Namib",
+          "correct": false,
+          "info": "Die Namib liegt an der Atlantikküste im Südwesten Afrikas, vor allem in Namibia. Sie ist eine Küsten- und Nebelwüste.",
+          "link": {
+            "title": "Namib (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Namib"
+          }
+        },
+        {
+          "text": "Gobi",
+          "correct": false,
+          "info": "Die Gobi liegt in Zentralasien, in der Mongolei und in China. Sie besteht aus Wüsten, Halbwüsten und weiten Steppen.",
+          "link": {
+            "title": "Gobi (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Gobi"
+          }
+        },
+        {
+          "text": "Sahara",
+          "correct": false,
+          "info": "Die Sahara im Norden Afrikas ist die größte Trockenwüste der Erde. Sie ist über neun Millionen Quadratkilometer groß.",
+          "link": {
+            "title": "Sahara (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Sahara"
+          }
+        }
+      ],
+      "explanation": "In der Atacama fällt im Mittel an manchen Orten nur ein halber Millimeter Regen im Jahr. In ihrer Mitte ist es seit mindestens 15 Millionen Jahren extrem trocken.",
+      "links": [
+        {
+          "title": "Atacama-Wüste (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Atacama-W%C3%BCste"
+        }
+      ]
+    },
+    {
+      "id": "namib-duenen",
+      "type": "true-false",
+      "text": "In der Namib gibt es Sanddünen, die rund 380 Meter hoch sind.",
+      "answer": true,
+      "explanation": "Das stimmt. Beim Sossusvlei in der Namib stehen Dünen, die oft als die höchsten der Erde bezeichnet werden. Die Düne „Big Daddy“ ist rund 380 m hoch.",
+      "links": [
+        {
+          "title": "Namib (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Namib"
+        }
+      ]
+    },
+    {
+      "id": "antarktika-wueste",
+      "type": "true-false",
+      "text": "Antarktika ist mit Eis bedeckt und trotzdem eine Wüste, wenn man nach der Menge an Niederschlag geht.",
+      "answer": true,
+      "explanation": "Das stimmt. Im Inneren von Antarktika fallen im Jahr nur etwas über 40 Liter Niederschlag pro Quadratmeter, fast nur als Schnee. Nach dieser Rechnung ist Antarktika sogar die größte Wüste der Welt.",
+      "links": [
+        {
+          "title": "Antarktika (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Antarktika"
+        }
+      ]
     }
   ],
   "sources": [
@@ -525,6 +616,26 @@
     {
       "title": "Jangtsekiang, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
       "url": "https://de.wikipedia.org/wiki/Jangtsekiang"
+    },
+    {
+      "title": "Sahara, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Sahara"
+    },
+    {
+      "title": "Atacama-Wüste, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Atacama-W%C3%BCste"
+    },
+    {
+      "title": "Namib, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Namib"
+    },
+    {
+      "title": "Gobi, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Gobi"
+    },
+    {
+      "title": "Antarktika, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Antarktika"
     }
   ]
 }
