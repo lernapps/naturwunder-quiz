@@ -2,9 +2,9 @@
 # Read by the git hooks, the review and the evals.
 # Schema: @lernapps/tooling/guidance/plan-front-matter.v1.schema.json. Keep all three keys.
 # archetype: the kind of app, chosen at the end of Explore: explainer, interactive or quiz. null until then.
-archetype: null
+archetype: quiz
 # phase: the phase you work in now: explore, plan, code or commit. Change it when you enter the next phase.
-phase: explore
+phase: plan
 # prePushFailures: failed runs of the pre-push hook. The hook counts them. Never change this value.
 prePushFailures: 0
 ---
@@ -26,7 +26,7 @@ This file guides you, the assistant, and shows the creator where you are.
 
 ## Goal
 
-<!-- One or two sentences: what learners do in the app, and what they learn or train by it. Fill it in Explore. -->
+Schülerinnen und Schüler der Klassen 5 bis 10 beantworten rund 25 Quizfragen zu Naturwundern der Erde, verteilt auf Themen (Gebirge und Vulkane, Wasser, Wüsten, Höhlen und Schluchten, Küsten, Inseln und Riffe) und auf alle Kontinente. Nach jeder Antwort lesen sie kurz etwas zu jeder Möglichkeit und können im verlinkten Wikipedia-Artikel weiterlesen: Das Quiz soll Erdkunde-Wissen üben und neugierig machen.
 
 ## Key decisions
 
@@ -35,12 +35,20 @@ One line each: the decision and why. The archetype is the first one. Add decisio
 Mark a choice you made without asking the creator with "(guess)", and list it in the retrospective.
 -->
 
+- Archetyp `quiz`: Der Ersteller wünscht ein Quiz („Naturwunder-Quiz“); Fragen mit Antwortmöglichkeiten und Rückmeldung passen genau.
+- Nur Geografie (Fach Erdkunde); Biologie wäre später eine eigene Rubrik.
+- Gruppen über die Auswahl der Fragen (Vorschlag A, bestätigt mit „Passt“): Fragen gleichmäßig auf Themen und Kontinente verteilt, ohne JavaScript nach Themen sortiert, dazu Fragen, die die Gruppen selbst üben; im Eintrag je Gruppe ein Deep-Link. Der Quiz-Baustein kennt keine Gruppen, und Code darf nicht geändert werden (`quiz-only-data`).
+- Rund 25 Fragen, Klassen 5 bis 10 (bestätigt mit „Passt“).
+- Jede Antwortmöglichkeit verlinkt ihren Artikel in der deutschen Wikipedia, auch die falschen (Wunsch des Erstellers); Texte in eigenen Worten.
+- `rememberLastResult` aus: Das Quiz speichert nichts, `fitness.storage: none` (guess).
+- `creator.url` = https://github.com/mrsimpson, abgeleitet aus „@mrsimpson“ (guess).
+
 ## Notes
 
 <!-- What you need later: sources and licences of content, links, open questions. -->
 
 - Skill lernapps-quiz und Schema quiz.v1 gelesen: Jede Antwortmöglichkeit (single/multiple choice) kann einen eigenen `link` haben → für jede Option ein Wikipedia-Artikel. Bei Fragen ohne Optionen (wahr/falsch, Zahl, Reihenfolge, Zuordnung) stehen alle Artikel in `links` der Frage.
-- Das Schema kennt keine Gruppen/Kategorien: Ein Quiz ist eine Seite mit allen Fragen in gemischter Reihenfolge. Gruppen wären nur über die Reihenfolge ohne JavaScript, Frage-IDs und Deep-Links (#frage-<id>) darstellbar. Offene Frage an die Erstellerin/den Ersteller.
+- Das Schema kennt keine Gruppen/Kategorien: Ein Quiz ist eine Seite mit allen Fragen in gemischter Reihenfolge. Gruppen wären nur über die Reihenfolge ohne JavaScript, Frage-IDs und Deep-Links (#frage-<id>) darstellbar. Entschieden: Vorschlag A (siehe Key decisions).
 - Quelle: deutschsprachige Wikipedia (CC BY-SA); Texte in eigenen Worten (quiz-own-words), Artikel in `sources`.
 - Später möglich: zweite Rubrik Biologie (nicht Teil dieses Plans).
 - Eintrags-Schema gelesen (entry.v1): Pflicht sind title, subject, grades, summary, url, creator, fitness.
@@ -55,17 +63,6 @@ from earlier answers. Write each answer under "Answers".
 
 ### Tasks
 
-- [ ] Ask what the app is for: what do learners do in it, and what do they learn or train?
-- [ ] Ask who the learners are: subject, school year, what they know already.
-- [ ] Ask where the content comes from: written by the creator, or taken from others (with source and licence)?
-- [ ] Fetch the entry schema of the app overview: https://lernapps.net/apps/schemas/entry.v1.schema.json. Read the
-      description of every property. Ask the creator what it needs to help adults (teachers, parents) find the app.
-      Fill the "Entry draft" from the answers.
-- [ ] Choose the archetype from the answers: `explainer` (many pages of explanation and exercises), `interactive`
-      (one app page in the browser, plus a static start page) or `quiz` (questions with options and feedback).
-      Write it under "Key decisions" with the reason; set `archetype`.
-- [ ] Set `phase: plan`.
-
 ### Answers
 
 <!-- The creator's answers, in their words, one bullet per question. -->
@@ -74,6 +71,8 @@ from earlier answers. Write each answer under "Answers".
 - Inhalt/Fach: „Gruppierungen wären toll, sowohl thematisch als auch geografisch. Ich würde das erst einmal auf Geografie beschränken. Wenn es gut funktioniert, können wir danach auch etwas für Biologie machen, aber das wäre eine zweite Rubrik.“
 - Lernende: „Es geht um Kinder aus dem Gymnasium und Realschulen oder anderen weiterführenden Schulen, wir können also davon ausgehen, dass sie schon wissen, was Ozeane oder was Kontinente sind.“
 - Inhalte: „Das Quiz soll außerdem neugierig machen und zum weiteren Nachlesen anregen, nutze daher bitte Einträge aus Wikipedia, so dass sie auch fundiert sind. Verknüpfe die Artikel bei jeder Antwort, auch bei den falschen.“
+- Gruppen, Umfang, Klassen (Vorschlag A, rund 25 Fragen, Klasse 5 bis 10): „Passt.“
+- Name im Eintrag: „Ich bin Oliver (@mrsimpson)“
 
 ### Entry draft
 
@@ -84,9 +83,47 @@ what is not known yet, such as the app's address before it is published. The lis
 -->
 
 ```yaml
+title: Naturwunder-Quiz
+subject: Erdkunde
+grades: [5, 6, 7, 8, 9, 10]
+summary: >-
+  Im Quiz beantworten Schülerinnen und Schüler Fragen zu Naturwundern der Erde: Gebirge und Vulkane, Wasserfälle,
+  Wüsten, Höhlen, Küsten und Riffe auf allen Kontinenten. Nach jeder Antwort lesen sie kurz zu jeder Möglichkeit
+  und können im Wikipedia-Artikel weiterlesen.
+# url: kommt nach der Veröffentlichung
+topics: # Pfade (#frage-<id>) werden in Code festgelegt, je Gruppe eine Frage
+  - title: Gebirge und Vulkane
+  - title: Wasserfälle, Flüsse und Seen
+  - title: Wüsten
+  - title: Höhlen und Schluchten
+  - title: Küsten, Inseln und Riffe
+  - title: Naturwunder nach Kontinenten
+keywords: [Naturwunder, Geografie, Erdkunde, Quiz, Kontinente, Welterbe, Vulkane, Wüsten, Wasserfälle]
+creator:
+  name: Oliver
+  url: https://github.com/mrsimpson
+source: https://github.com/lernapps/naturwunder-quiz
+fitness:
+  account: false
+  install: false
+  storage: none
+  thirdParty: none
+  checked: false
 ```
 
 ### Completed
+
+- [x] Ask what the app is for: what do learners do in it, and what do they learn or train?
+- [x] Ask who the learners are: subject, school year, what they know already.
+- [x] Ask where the content comes from: written by the creator, or taken from others (with source and licence)?
+- [x] Fetch the entry schema of the app overview: https://lernapps.net/apps/schemas/entry.v1.schema.json. Read the
+      description of every property. Ask the creator what it needs to help adults (teachers, parents) find the app.
+      Fill the "Entry draft" from the answers.
+- [x] Choose the archetype from the answers: `explainer` (many pages of explanation and exercises), `interactive`
+      (one app page in the browser, plus a static start page) or `quiz` (questions with options and feedback).
+      Write it under "Key decisions" with the reason; set `archetype`.
+- [x] Set `phase: plan`.
+
 
 ## Plan
 
@@ -97,13 +134,15 @@ creator's turns from here to the listing are counted in the retrospective (targe
 
 ### Tasks
 
-- [ ] Write the tasks of Code under "Code": the pages or screens, the content, and what each must show. Each task
-      ends in a commit.
-- [ ] Show the creator the goal, the archetype, the entry draft and the tasks, short.
 - [ ] **Checkpoint:** confirm the plan. Stop and wait for the creator. Change the plan if they ask, then ask again.
 - [ ] Set `phase: code`.
 
 ### Completed
+
+- [x] Show the creator the goal, the archetype, the entry draft and the tasks, short.
+- [x] Write the tasks of Code under "Code": the pages or screens, the content, and what each must show. Each task
+      ends in a commit.
+
 
 ## Code
 
@@ -127,7 +166,14 @@ one of them, stop and ask the creator to allow it, then run the command again. N
       hooks.
 - [ ] Commit what the generator wrote, with this plan: the first commit.
 - [ ] Load the skill `lernapps-app` and the skill of the archetype.
-- [ ] <the tasks written in Plan>
+- [ ] Rahmen und Thema „Gebirge und Vulkane“: Beispiel ersetzen; Titel, Einleitung, `sources`; 5 Fragen (z. B. Mount Everest, Kilimandscharo, Ätna, Matterhorn, Aconcagua; Typen gemischt).
+- [ ] Thema „Wasserfälle, Flüsse und Seen“: 5 Fragen (z. B. Victoriafälle, Iguazú-Wasserfälle, Niagarafälle, Baikalsee, Amazonas).
+- [ ] Thema „Wüsten“: 4 Fragen (z. B. Sahara, Atacama, Namib, Antarktis als Kältewüste).
+- [ ] Thema „Höhlen und Schluchten“: 4 Fragen (z. B. Grand Canyon, Eisriesenwelt, Sơn-Đoòng-Höhle, Waitomo-Glühwürmchenhöhlen).
+- [ ] Thema „Küsten, Inseln und Riffe“: 4 Fragen (z. B. Great Barrier Reef, Galápagos-Inseln, Halong-Bucht, Giant’s Causeway).
+- [ ] Gruppen üben: 3 Fragen über die Themen hinweg (Zuordnung Naturwunder → Kontinent, Mehrfachauswahl „Welche sind Wüsten?“, Reihenfolge nach Höhe oder Länge). Jeder Kontinent kommt im Quiz vor.
+- [ ] Alle Wikipedia-Links öffnen und jede Aussage am Artikel prüfen (`quiz-further-reading`, `quiz-answers-checked`); jede Antwortmöglichkeit hat einen `link`; Fragen ohne JavaScript nach Themen sortiert.
+- [ ] Eintrag: je Gruppe einen Deep-Link (`#frage-<id>`) unter `topics` eintragen.
 - [ ] `npx lernapps check` passes.
 - [ ] Set `phase: commit`.
 
