@@ -4,7 +4,7 @@
 # archetype: the kind of app, chosen at the end of Explore: explainer, interactive or quiz. null until then.
 archetype: quiz
 # phase: the phase you work in now: explore, plan, code or commit. Change it when you enter the next phase.
-phase: code
+phase: commit
 # prePushFailures: failed runs of the pre-push hook. The hook counts them. Never change this value.
 prePushFailures: 0
 ---
@@ -41,6 +41,7 @@ Mark a choice you made without asking the creator with "(guess)", and list it in
 - Rund 25 Fragen, Klassen 5 bis 10 (bestätigt mit „Passt“).
 - Jede Antwortmöglichkeit verlinkt ihren Artikel in der deutschen Wikipedia, auch die falschen (Wunsch des Erstellers); Texte in eigenen Worten.
 - `rememberLastResult` aus: Das Quiz speichert nichts, `fitness.storage: none` (guess).
+- `@lernapps/app-templates` von 4f90987 auf a876fb9 aktualisiert, weil der Ersteller sagte, das neue Template behebe den Zeitüberschreitungs-Fehler.
 - `creator.url` = https://github.com/mrsimpson, abgeleitet aus „@mrsimpson“ (guess).
 
 ## Notes
@@ -51,7 +52,7 @@ Mark a choice you made without asking the creator with "(guess)", and list it in
 - Das Schema kennt keine Gruppen/Kategorien: Ein Quiz ist eine Seite mit allen Fragen in gemischter Reihenfolge. Gruppen wären nur über die Reihenfolge ohne JavaScript, Frage-IDs und Deep-Links (#frage-<id>) darstellbar. Entschieden: Vorschlag A (siehe Key decisions).
 - Quelle: deutschsprachige Wikipedia (CC BY-SA); Texte in eigenen Worten (quiz-own-words), Artikel in `sources`.
 - Alle 65 Wikipedia-Links geöffnet (Status 200, richtiger Artikel, keine Begriffsklärung, keine Weiterleitung). Fakten am Wikitext der Artikel geprüft (Stand 12.10.2026).
-- `npx lernapps check` (12.10.2026): 104 von 106 Tests bestanden. Der Laufzeit-Test „all right answers give the full score“ überschreitet sein Zeitlimit von 30 s: Er kam bis Frage 21 (desktop) bzw. 16 (360px) von 25. Ursache: `scroll-behavior: smooth` im Quiz-Baustein, jeder Klick wartet, bis die Seite still steht (rund 1,2–1,8 s pro Frage). Auch allein ausgeführt scheitert er. Weder Test noch Konfiguration darf die App ändern (`quiz-only-data`, `keep-the-preset`). Offene Frage an den Ersteller.
+- `npx lernapps check` (12.10.2026): 104 von 106 Tests bestanden. Der Laufzeit-Test „all right answers give the full score“ überschreitet sein Zeitlimit von 30 s: Er kam bis Frage 21 (desktop) bzw. 16 (360px) von 25. Ursache: `scroll-behavior: smooth` im Quiz-Baustein, jeder Klick wartet, bis die Seite still steht (rund 1,2–1,8 s pro Frage). Auch allein ausgeführt scheitert er. Weder Test noch Konfiguration darf die App ändern (`quiz-only-data`, `keep-the-preset`). Gelöst: Der Ersteller meldete ein Update des Templates; `@lernapps/app-templates` auf a876fb9 gehoben, danach `npx lernapps check` ok (7 Regeln, keine Befunde).
 - Später möglich: zweite Rubrik Biologie (nicht Teil dieses Plans).
 - Eintrags-Schema gelesen (entry.v1): Pflicht sind title, subject, grades, summary, url, creator, fitness.
 
@@ -93,13 +94,19 @@ summary: >-
   Wüsten, Höhlen, Küsten und Riffe auf allen Kontinenten. Nach jeder Antwort lesen sie kurz zu jeder Möglichkeit
   und können im Wikipedia-Artikel weiterlesen.
 # url: kommt nach der Veröffentlichung
-topics: # Pfade (#frage-<id>) werden in Code festgelegt, je Gruppe eine Frage
+topics:
   - title: Gebirge und Vulkane
+    path: "#frage-everest-hoehe"
   - title: Wasserfälle, Flüsse und Seen
+    path: "#frage-baikalsee"
   - title: Wüsten
+    path: "#frage-atacama"
   - title: Höhlen und Schluchten
+    path: "#frage-hoehlen-rekorde"
   - title: Küsten, Inseln und Riffe
+    path: "#frage-great-barrier-reef"
   - title: Naturwunder nach Kontinenten
+    path: "#frage-kontinente-zuordnen"
 keywords: [Naturwunder, Geografie, Erdkunde, Quiz, Kontinente, Welterbe, Vulkane, Wüsten, Wasserfälle]
 creator:
   name: Oliver
@@ -161,10 +168,6 @@ one of them, stop and ask the creator to allow it, then run the command again. N
 
 ### Tasks
 
-- [ ] Alle Wikipedia-Links öffnen und jede Aussage am Artikel prüfen (`quiz-further-reading`, `quiz-answers-checked`); jede Antwortmöglichkeit hat einen `link`; Fragen ohne JavaScript nach Themen sortiert.
-- [ ] Eintrag: je Gruppe einen Deep-Link (`#frage-<id>`) unter `topics` eintragen.
-- [ ] `npx lernapps check` passes.
-- [ ] Set `phase: commit`.
 
 ### Completed
 
@@ -181,7 +184,10 @@ one of them, stop and ask the creator to allow it, then run the command again. N
 - [x] Thema „Höhlen und Schluchten“: 4 Fragen (Grand Canyon, Höhlen-Rekorde zuordnen, Sơn-Đoòng-Höhle, Waitomo Caves).
 - [x] Thema „Küsten, Inseln und Riffe“: 4 Fragen (Great Barrier Reef, Galápagos-Inseln, Halong-Bucht, Giant’s Causeway).
 - [x] Gruppen üben: 3 Fragen über die Themen hinweg (Zuordnung Naturwunder → Kontinent, Mehrfachauswahl „Welche sind Wüsten?“, Reihenfolge nach Höhe oder Länge). Jeder Kontinent kommt im Quiz vor.
-
+- [x] Alle Wikipedia-Links öffnen und jede Aussage am Artikel prüfen (`quiz-further-reading`, `quiz-answers-checked`); jede Antwortmöglichkeit hat einen `link`; Fragen ohne JavaScript nach Themen sortiert.
+- [x] Eintrag: je Gruppe einen Deep-Link (`#frage-<id>`) unter `topics` eintragen.
+- [x] `npx lernapps check` passes.
+- [x] Set `phase: commit`.
 
 ## Commit
 
