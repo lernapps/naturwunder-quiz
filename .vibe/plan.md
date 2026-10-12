@@ -159,7 +159,6 @@ one of them, stop and ask the creator to allow it, then run the command again. N
 
 ### Tasks
 
-- [ ] Thema „Küsten, Inseln und Riffe“: 4 Fragen (z. B. Great Barrier Reef, Galápagos-Inseln, Halong-Bucht, Giant’s Causeway).
 - [ ] Gruppen üben: 3 Fragen über die Themen hinweg (Zuordnung Naturwunder → Kontinent, Mehrfachauswahl „Welche sind Wüsten?“, Reihenfolge nach Höhe oder Länge). Jeder Kontinent kommt im Quiz vor.
 - [ ] Alle Wikipedia-Links öffnen und jede Aussage am Artikel prüfen (`quiz-further-reading`, `quiz-answers-checked`); jede Antwortmöglichkeit hat einen `link`; Fragen ohne JavaScript nach Themen sortiert.
 - [ ] Eintrag: je Gruppe einen Deep-Link (`#frage-<id>`) unter `topics` eintragen.
@@ -179,6 +178,7 @@ one of them, stop and ask the creator to allow it, then run the command again. N
 - [x] Thema „Wasserfälle, Flüsse und Seen“: 5 Fragen (z. B. Victoriafälle, Iguazú-Wasserfälle, Niagarafälle, Baikalsee, Amazonas).
 - [x] Thema „Wüsten“: 4 Fragen (z. B. Sahara, Atacama, Namib, Antarktika als Wüste).
 - [x] Thema „Höhlen und Schluchten“: 4 Fragen (Grand Canyon, Höhlen-Rekorde zuordnen, Sơn-Đoòng-Höhle, Waitomo Caves).
+- [x] Thema „Küsten, Inseln und Riffe“: 4 Fragen (Great Barrier Reef, Galápagos-Inseln, Halong-Bucht, Giant’s Causeway).
 
 
 ## Commit

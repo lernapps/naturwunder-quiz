@@ -612,6 +612,171 @@
           "url": "https://de.wikipedia.org/wiki/Arachnocampa_luminosa"
         }
       ]
+    },
+    {
+      "id": "great-barrier-reef",
+      "type": "number",
+      "text": "Das Great Barrier Reef vor der Nordostküste Australiens ist die größte Ansammlung von Korallenriffen der Erde. Wie lang ist es ungefähr? Bis zu 300 km daneben zählt noch als richtig.",
+      "answer": 2300,
+      "tolerance": 300,
+      "unit": "km",
+      "explanation": "Das Great Barrier Reef ist gut 2300 km lang und besteht aus über 2900 einzelnen Riffen. Dazu gehören etwa 1000 Inseln. Seit 1981 ist es Weltnaturerbe der UNESCO.",
+      "links": [
+        {
+          "title": "Great Barrier Reef (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Great_Barrier_Reef"
+        }
+      ]
+    },
+    {
+      "id": "galapagos-darwin",
+      "type": "single-choice",
+      "text": "Welcher Naturforscher besuchte 1835 mit dem Schiff „Beagle“ die Galápagos-Inseln?",
+      "options": [
+        {
+          "text": "Charles Darwin",
+          "correct": true,
+          "info": "Charles Darwin war ein britischer Naturforscher. Seine Reise um die Welt mit der „Beagle“ war die Grundlage für seine Theorie, wie sich Lebewesen über lange Zeit verändern.",
+          "link": {
+            "title": "Charles Darwin (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Charles_Darwin"
+          }
+        },
+        {
+          "text": "Alexander von Humboldt",
+          "correct": false,
+          "info": "Alexander von Humboldt war ein deutscher Forscher aus Berlin. Er reiste durch Lateinamerika, die USA und Zentralasien und half, die Geografie als Wissenschaft zu begründen.",
+          "link": {
+            "title": "Alexander von Humboldt (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Alexander_von_Humboldt"
+          }
+        },
+        {
+          "text": "James Cook",
+          "correct": false,
+          "info": "James Cook war ein britischer Seefahrer. Auf drei großen Reisen erkundete er den Pazifischen Ozean und zeichnete genaue Karten.",
+          "link": {
+            "title": "James Cook (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/James_Cook"
+          }
+        },
+        {
+          "text": "Carl von Linné",
+          "correct": false,
+          "info": "Carl von Linné war ein schwedischer Naturforscher. Er legte die Grundlagen dafür, wie Pflanzen und Tiere bis heute wissenschaftlich benannt werden.",
+          "link": {
+            "title": "Carl von Linné (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Carl_von_Linn%C3%A9"
+          }
+        }
+      ],
+      "explanation": "Darwin kam im September 1835 auf die Galápagos-Inseln. Die Inseln liegen am Äquator, etwa 1000 km vor der Küste Ecuadors, und gehören zu diesem Land. Ihre besonderen Tiere und Pflanzen sind Weltnaturerbe.",
+      "links": [
+        {
+          "title": "Galapagosinseln (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Galapagosinseln"
+        }
+      ]
+    },
+    {
+      "id": "halong-bucht",
+      "type": "single-choice",
+      "text": "In der Halong-Bucht ragen fast 2000 Felsen aus Kalkstein aus dem Meer. In welchem Land liegt sie?",
+      "options": [
+        {
+          "text": "Vietnam",
+          "correct": true,
+          "info": "Vietnam ist ein lang gestreckter Küstenstaat in Südostasien. Die Hauptstadt ist Hanoi.",
+          "link": {
+            "title": "Vietnam (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Vietnam"
+          }
+        },
+        {
+          "text": "Thailand",
+          "correct": false,
+          "info": "Thailand ist ein Königreich in Südostasien. Die Hauptstadt ist Bangkok.",
+          "link": {
+            "title": "Thailand (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Thailand"
+          }
+        },
+        {
+          "text": "Philippinen",
+          "correct": false,
+          "info": "Die Philippinen sind ein Inselstaat im westlichen Pazifik. Sie bestehen aus über 7600 Inseln.",
+          "link": {
+            "title": "Philippinen (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Philippinen"
+          }
+        },
+        {
+          "text": "Indonesien",
+          "correct": false,
+          "info": "Indonesien liegt zwischen Indischem und Pazifischem Ozean. Mit über 17.000 Inseln ist es der größte Inselstaat der Welt.",
+          "link": {
+            "title": "Indonesien (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Indonesien"
+          }
+        }
+      ],
+      "explanation": "Die Halong-Bucht liegt im Golf von Tonkin im Norden Vietnams. Nach offiziellen Angaben ragen dort 1969 Kalkfelsen und kleine Inseln aus dem Wasser. Seit 1994 ist die Bucht Weltnaturerbe.",
+      "links": [
+        {
+          "title": "Halong-Bucht (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Halong-Bucht"
+        }
+      ]
+    },
+    {
+      "id": "giants-causeway",
+      "type": "single-choice",
+      "text": "Der Giant’s Causeway an der Küste Nordirlands besteht aus etwa 40.000 Säulen. Aus welchem Gestein sind sie?",
+      "options": [
+        {
+          "text": "Basalt",
+          "correct": true,
+          "info": "Basalt entsteht, wenn Lava an der Erdoberfläche schnell abkühlt und hart wird. Es ist ein Gestein aus Vulkanen.",
+          "link": {
+            "title": "Basalt (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Basalt"
+          }
+        },
+        {
+          "text": "Granit",
+          "correct": false,
+          "info": "Granit entsteht tief in der Erdkruste aus langsam abkühlendem Magma. Er besteht vor allem aus Feldspat, Quarz und Glimmer.",
+          "link": {
+            "title": "Granit (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Granit"
+          }
+        },
+        {
+          "text": "Kalkstein",
+          "correct": false,
+          "info": "Kalkstein ist ein Gestein, das sich meist aus den Resten von Lebewesen ablagert. Er besteht vor allem aus Calciumcarbonat.",
+          "link": {
+            "title": "Kalkstein (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Kalkstein"
+          }
+        },
+        {
+          "text": "Sandstein",
+          "correct": false,
+          "info": "Sandstein besteht aus zusammengebackenen Sandkörnern, meist aus Quarz.",
+          "link": {
+            "title": "Sandstein (Wikipedia)",
+            "url": "https://de.wikipedia.org/wiki/Sandstein"
+          }
+        }
+      ],
+      "explanation": "Die Säulen bestehen aus Basalt und sind etwa 60 Millionen Jahre alt. Sie entstanden, als heiße Lava abkühlte. Etwa die Hälfte der Säulen hat sechs Ecken.",
+      "links": [
+        {
+          "title": "Giant’s Causeway (Wikipedia)",
+          "url": "https://de.wikipedia.org/wiki/Giant%E2%80%99s_Causeway"
+        }
+      ]
     }
   ],
   "sources": [
@@ -790,6 +955,70 @@
     {
       "title": "Arachnocampa luminosa, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
       "url": "https://de.wikipedia.org/wiki/Arachnocampa_luminosa"
+    },
+    {
+      "title": "Great Barrier Reef, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Great_Barrier_Reef"
+    },
+    {
+      "title": "Charles Darwin, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Charles_Darwin"
+    },
+    {
+      "title": "Alexander von Humboldt, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Alexander_von_Humboldt"
+    },
+    {
+      "title": "James Cook, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/James_Cook"
+    },
+    {
+      "title": "Carl von Linné, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Carl_von_Linn%C3%A9"
+    },
+    {
+      "title": "Galapagosinseln, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Galapagosinseln"
+    },
+    {
+      "title": "Vietnam, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Vietnam"
+    },
+    {
+      "title": "Thailand, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Thailand"
+    },
+    {
+      "title": "Philippinen, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Philippinen"
+    },
+    {
+      "title": "Indonesien, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Indonesien"
+    },
+    {
+      "title": "Halong-Bucht, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Halong-Bucht"
+    },
+    {
+      "title": "Basalt, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Basalt"
+    },
+    {
+      "title": "Granit, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Granit"
+    },
+    {
+      "title": "Kalkstein, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Kalkstein"
+    },
+    {
+      "title": "Sandstein, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Sandstein"
+    },
+    {
+      "title": "Giant’s Causeway, Wikipedia – Die freie Enzyklopädie (deutsch), Lizenz CC BY-SA 4.0",
+      "url": "https://de.wikipedia.org/wiki/Giant%E2%80%99s_Causeway"
     }
   ]
 }
