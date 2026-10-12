@@ -200,7 +200,6 @@ another branch until the creator says yes.
 
 ### Tasks
 
-- [ ] Open the listing pull request as the skill says, and see it through to "bestanden".
 
 ### Completed
 
@@ -215,6 +214,7 @@ another branch until the creator says yes.
 - [x] Complete the entry draft with what is known now, such as the app's address. `lernapps check --entry`: ok, keine Befunde.
 - [x] **Checkpoint:** list. Ask the creator before you open the listing pull request, and wait for their yes. Bestätigt: „Ja, sieht gut aus“.
 - [x] Fill the retrospective.
+- [x] Open the listing pull request as the skill says, and see it through to "bestanden". https://github.com/lernapps/apps/pull/13: Lauf „Listing“ bestanden.
 
 
 ## Retrospective
