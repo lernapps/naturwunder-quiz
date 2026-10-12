@@ -39,6 +39,7 @@ Mark a choice you made without asking the creator with "(guess)", and list it in
 
 <!-- What you need later: sources and licences of content, links, open questions. -->
 
+- Später möglich: zweite Rubrik Biologie (nicht Teil dieses Plans).
 - Eintrags-Schema gelesen (entry.v1): Pflicht sind title, subject, grades, summary, url, creator, fitness.
 
 ## Explore
@@ -67,6 +68,7 @@ from earlier answers. Write each answer under "Answers".
 <!-- The creator's answers, in their words, one bullet per question. -->
 
 - Thema: „Es soll ein Naturwunder-Quiz werden.“
+- Inhalt/Fach: „Gruppierungen wären toll, sowohl thematisch als auch geografisch. Ich würde das erst einmal auf Geografie beschränken. Wenn es gut funktioniert, können wir danach auch etwas für Biologie machen, aber das wäre eine zweite Rubrik.“
 
 ### Entry draft
 
