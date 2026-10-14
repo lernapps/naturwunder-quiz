@@ -5,7 +5,11 @@ name: Pages
 # tests), and keeps its validation report as the artifact "validation-report". On main, the job `deploy` publishes
 # the bundle it checked with the app publish action: to the gh-pages branch, which GitHub Pages serves from its root
 # (Settings → Pages → Deploy from a branch → gh-pages, / (root)). It checks that setting, waits until the app's
-# address serves the new bundle, and prints the address; on a failure, its message says what to do.
+# address serves the new bundle, and prints the address; on a failure, its message says what to do. Both actions
+# first ask what the change can affect (lernapps changes): a change of only the plan (.vibe/) or only docs
+# (docs/**/*.md) checks and publishes nothing, and the jobs succeed with a notice. So the workflow runs on every push
+# and pull request, with no paths filter: a check skipped by a paths filter stays "Pending" and blocks a pull request
+# that requires it.
 on:
   push:
     branches: [main]
@@ -23,7 +27,7 @@ jobs:
   app:
     runs-on: ubuntu-latest
     steps:
-      - uses: lernapps/tooling/actions/app-check@766a07f6672cd13b8ebecac00a577ecfb1b75bd5 # main
+      - uses: lernapps/tooling/actions/app-check@9b9a34c25af4fa397b64f5e01b1640245a1d3726 # main
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: app
@@ -32,4 +36,4 @@ jobs:
       contents: write
       pages: write
     steps:
-      - uses: lernapps/tooling/actions/app-publish@766a07f6672cd13b8ebecac00a577ecfb1b75bd5 # main
+      - uses: lernapps/tooling/actions/app-publish@9b9a34c25af4fa397b64f5e01b1640245a1d3726 # main
