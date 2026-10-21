@@ -7,6 +7,16 @@
       "id": "everest-hoehe",
       "type": "number",
       "text": "Der Mount Everest ist der höchste Berg der Erde. Wie hoch ist er über dem Meeresspiegel? Bis zu 100 m daneben zählt noch als richtig.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/everest-hoehe.jpg",
+          "alt": "Ein mächtiger, schneebedeckter Berg mit felsigen Flanken, davor ein steiniges, braunes Tal unter blauem Himmel",
+          "caption": "Schau auf den Gipfel: Fels, Schnee und Eis, so weit man sieht. Foto: Luca Galuzzi.",
+          "source": "https://commons.wikimedia.org/wiki/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+          "licence": "CC-BY-SA-2.5"
+        }
+      ],
       "answer": 8848,
       "tolerance": 100,
       "unit": "m",
@@ -22,6 +32,16 @@
       "id": "kilimandscharo-land",
       "type": "single-choice",
       "text": "Der Kilimandscharo ist das höchste Bergmassiv Afrikas. In welchem Land liegt er?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/kilimandscharo-land.jpg",
+          "alt": "Ein breiter Berg mit schneebedecktem Gipfel über einer weiten Landschaft mit Büschen; auf einem Pfad gehen zwei Menschen",
+          "caption": "Oben auf dem Berg liegt Schnee, unten wachsen Büsche. Foto: Yosemite.",
+          "source": "https://commons.wikimedia.org/wiki/File:Kibo_summit_of_Mt_Kilimanjaro_001.JPG",
+          "licence": "CC-BY-SA-3.0"
+        }
+      ],
       "options": [
         {
           "text": "Tansania",
@@ -72,6 +92,16 @@
       "id": "aetna-vulkan",
       "type": "single-choice",
       "text": "Welcher Vulkan ist der höchste aktive Vulkan Europas?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/aetna-vulkan.jpg",
+          "alt": "Ein breiter, schneebedeckter Berg hinter einer großen Stadt in der Ebene, am Himmel einige Wolken",
+          "caption": "Schau, wie nah die Stadt am Fuß des Berges liegt. Foto: BenAveling.",
+          "source": "https://commons.wikimedia.org/wiki/File:Mt_Etna_and_Catania1.jpg",
+          "licence": "CC-BY-SA-4.0"
+        }
+      ],
       "options": [
         {
           "text": "Ätna",
@@ -122,6 +152,16 @@
       "id": "aconcagua",
       "type": "single-choice",
       "text": "Welcher Berg ist der höchste Berg Amerikas?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/aconcagua.jpg",
+          "alt": "Ein felsiger Berg mit Schnee und Eis, davor ein trockenes Tal unter blauem Himmel",
+          "caption": "Der Berg ragt steil hinter dem trockenen Tal auf. Foto: Mariordo Mario Roberto Duran Ortiz.",
+          "source": "https://commons.wikimedia.org/wiki/File:Aconcagua_13.JPG",
+          "licence": "CC-BY-3.0"
+        }
+      ],
       "options": [
         {
           "text": "Aconcagua",
@@ -172,6 +212,16 @@
       "id": "matterhorn-alpen",
       "type": "true-false",
       "text": "Das Matterhorn ist der höchste Berg der Alpen.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/matterhorn-alpen.jpg",
+          "alt": "Ein spitzer, felsiger Berg mit Schnee an den Hängen vor blauem Himmel, unten grüne Wiesen",
+          "caption": "Schau auf die Form des Gipfels: Er läuft ganz spitz zu. Foto: Andrew Bossi.",
+          "source": "https://commons.wikimedia.org/wiki/File:3818_-_Riffelberg_-_Matterhorn_viewed_from_Gornergratbahn.JPG",
+          "licence": "CC-BY-SA-2.5"
+        }
+      ],
       "answer": false,
       "explanation": "Das stimmt nicht. Das Matterhorn an der Grenze zwischen der Schweiz und Italien ist 4478 m hoch und wegen seiner Form sehr bekannt. Der höchste Berg der Alpen ist aber der Mont Blanc an der Grenze zwischen Frankreich und Italien. Er ist rund 4800 m hoch.",
       "links": [
@@ -189,6 +239,16 @@
       "id": "sambesi-victoriafaelle",
       "type": "single-choice",
       "text": "Welcher Fluss stürzt an den Victoriafällen in Afrika in die Tiefe?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/victoriafaelle.jpg",
+          "alt": "Luftbild eines breiten Flusses, der sich in viele Arme teilt und an einer Kante in eine Schlucht stürzt; unten im Bild führt eine Brücke über die Schlucht",
+          "caption": "Von oben sieht man, wie viel Wasser an der Kante in die Tiefe stürzt. Foto: Diego Delso.",
+          "source": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_06.jpg",
+          "licence": "CC-BY-SA-4.0"
+        }
+      ],
       "options": [
         {
           "text": "Sambesi",
@@ -239,6 +299,16 @@
       "id": "victoriafaelle-breite",
       "type": "number",
       "text": "Die Victoriafälle sind der breiteste durchgehende Wasserfall der Erde. Wie breit sind sie ungefähr? Bis zu 200 m daneben zählt noch als richtig.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/victoriafaelle.jpg",
+          "alt": "Luftbild eines breiten Flusses, der sich in viele Arme teilt und an einer Kante in eine Schlucht stürzt; unten im Bild führt eine Brücke über die Schlucht",
+          "caption": "Schau, wie weit sich die Kante am Rand der Schlucht entlangzieht. Foto: Diego Delso.",
+          "source": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_06.jpg",
+          "licence": "CC-BY-SA-4.0"
+        }
+      ],
       "answer": 1708,
       "tolerance": 200,
       "unit": "m",
@@ -254,6 +324,16 @@
       "id": "iguazu",
       "type": "single-choice",
       "text": "Welche Wasserfälle liegen an der Grenze zwischen Argentinien und Brasilien?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/iguazu.jpg",
+          "alt": "Viele Wasserfälle stürzen nebeneinander über eine grüne Felskante, davor schäumendes Wasser und ein Regenbogen",
+          "caption": "Schau auf die vielen einzelnen Fälle nebeneinander. Foto: Matthias Bethke.",
+          "source": "https://commons.wikimedia.org/wiki/File:20170821_Iguazú-Wasserfälle_(Brasilien).jpg",
+          "licence": "CC-BY-SA-4.0"
+        }
+      ],
       "options": [
         {
           "text": "Iguazú-Wasserfälle",
@@ -304,6 +384,16 @@
       "id": "baikalsee",
       "type": "single-choice",
       "text": "Welcher See ist der tiefste See der Erde?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/baikalsee.jpg",
+          "alt": "Roter und orangefarbener Himmel bei Sonnenuntergang über einem ruhigen, weiten See",
+          "caption": "Auf dem Foto sieht man kein anderes Ufer. Foto: Bgelo777.",
+          "source": "https://commons.wikimedia.org/wiki/File:Sunset_on_Lake_Baikal.jpg",
+          "licence": "CC-BY-SA-4.0"
+        }
+      ],
       "options": [
         {
           "text": "Baikalsee",
@@ -354,6 +444,16 @@
       "id": "amazonas-wasser",
       "type": "single-choice",
       "text": "Welcher Fluss führt das meiste Wasser von allen Flüssen der Erde?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/amazonas-wasser.jpg",
+          "alt": "Zwei Wasserströme treffen sich: ein brauner, sandfarbener und ein dunkler, fast schwarzer, mit einer klaren Grenze dazwischen",
+          "caption": "Zwei Flüsse mit verschieden gefärbtem Wasser fließen nebeneinander her. Foto: Dr. Seuthberg.",
+          "source": "https://commons.wikimedia.org/wiki/File:Meeting_of_the_Waters_-_Amazonas.JPG",
+          "licence": "CC-BY-SA-4.0"
+        }
+      ],
       "options": [
         {
           "text": "Amazonas",
@@ -404,6 +504,16 @@
       "id": "sahara-flaeche",
       "type": "number",
       "text": "Die Sahara ist die größte Trockenwüste der Erde. Wie groß ist ihre Fläche ungefähr, in Millionen Quadratkilometern? Bis zu 1 Million daneben zählt noch als richtig.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/sahara-flaeche.jpg",
+          "alt": "Eine riesige Sanddüne in Orangebraun, ganz unten ein kleines Auto",
+          "caption": "Das kleine Auto unten zeigt, wie groß die Düne ist. Foto: Albert Backer.",
+          "source": "https://commons.wikimedia.org/wiki/File:Sahara_Grand_Erg_Occidental.jpg",
+          "licence": "CC-BY-SA-3.0"
+        }
+      ],
       "answer": 9,
       "tolerance": 1,
       "unit": "Millionen km²",
@@ -419,6 +529,16 @@
       "id": "atacama",
       "type": "single-choice",
       "text": "Welche Wüste ist die trockenste Wüste der Erde außerhalb der Polargebiete?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/atacama.jpg",
+          "alt": "Eine weite, weiße Salzfläche mit rauer Kruste unter einem wolkenlosen blauen Himmel, ganz hinten flache Berge",
+          "caption": "Auf dem Bild wächst nichts, und am Himmel ist keine Wolke. Foto: Heretiq.",
+          "source": "https://commons.wikimedia.org/wiki/File:SalarDeatacamaFromChaxa.jpg",
+          "licence": "CC-BY-SA-2.5"
+        }
+      ],
       "options": [
         {
           "text": "Atacama",
@@ -469,6 +589,16 @@
       "id": "namib-duenen",
       "type": "true-false",
       "text": "In der Namib gibt es Sanddünen, die rund 380 Meter hoch sind.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/namib-duenen.jpg",
+          "alt": "Satellitenbild einer Küste: links dunkelblaues Meer, rechts trockenes, gelb-oranges Land",
+          "caption": "Das Land am Meer ist trocken und sandfarben.",
+          "source": "https://commons.wikimedia.org/wiki/File:Namib_Desert_surface.jpg",
+          "licence": "gemeinfrei"
+        }
+      ],
       "answer": true,
       "explanation": "Das stimmt. Beim Sossusvlei in der Namib stehen Dünen, die oft als die höchsten der Erde bezeichnet werden. Die Düne „Big Daddy“ ist rund 380 m hoch.",
       "links": [
@@ -482,6 +612,16 @@
       "id": "antarktika-wueste",
       "type": "true-false",
       "text": "Antarktika ist mit Eis bedeckt und trotzdem eine Wüste, wenn man nach der Menge an Niederschlag geht.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/antarktika-wueste.jpg",
+          "alt": "Eine verschneite Bergkette hinter einer spiegelnden Meeresbucht mit Eisschollen",
+          "caption": "Schnee, Eis und Berge: So sieht das Land dort aus. Foto: Andrew Mandemaker.",
+          "source": "https://commons.wikimedia.org/wiki/File:Mt_Herschel,_Antarctica,_Jan_2006.jpg",
+          "licence": "CC-BY-SA-2.5"
+        }
+      ],
       "answer": true,
       "explanation": "Das stimmt. Im Inneren von Antarktika fallen im Jahr nur etwas über 40 Liter Niederschlag pro Quadratmeter, fast nur als Schnee. Nach dieser Rechnung ist Antarktika sogar die größte Wüste der Welt.",
       "links": [
@@ -495,6 +635,16 @@
       "id": "grand-canyon",
       "type": "single-choice",
       "text": "Welcher Fluss hat den Grand Canyon in den USA geformt?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/grand-canyon.jpg",
+          "alt": "Blick über eine riesige Schlucht mit roten und hellen Gesteinsschichten, dahinter weitere Felswände und ein blauer Himmel",
+          "caption": "Schau auf die Wände: Sie bestehen aus vielen Schichten übereinander. Foto: Alexander Migl.",
+          "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_South_Rim_Trail_P4140464.jpg",
+          "licence": "CC-BY-SA-4.0"
+        }
+      ],
       "options": [
         {
           "text": "Colorado",
@@ -600,6 +750,16 @@
       "id": "waitomo-leuchten",
       "type": "true-false",
       "text": "In den Waitomo Caves in Neuseeland leuchten Käfer an der Höhlendecke, wie die Glühwürmchen bei uns.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/waitomo-leuchten.jpg",
+          "alt": "Der Eingang einer Höhle, umgeben von dichten grünen Pflanzen und Farn",
+          "caption": "Hinter dem grünen Vorhang beginnt die dunkle Höhle. Foto: James Shook.",
+          "source": "https://commons.wikimedia.org/wiki/File:Waitomo_Cave_Entrance_n.jpg",
+          "licence": "CC-BY-2.5"
+        }
+      ],
       "answer": false,
       "explanation": "Das stimmt nicht. Das bläuliche Licht kommt von den Larven einer Mückenart, die nur in Neuseeland lebt. Die Larven hängen an der Decke und lassen klebrige Fäden herab. Das Licht lockt Insekten an, die sich in den Fäden fangen.",
       "links": [
@@ -617,6 +777,16 @@
       "id": "great-barrier-reef",
       "type": "number",
       "text": "Das Great Barrier Reef vor der Nordostküste Australiens ist die größte Ansammlung von Korallenriffen der Erde. Wie lang ist es ungefähr? Bis zu 300 km daneben zählt noch als richtig.",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/great-barrier-reef.jpg",
+          "alt": "Satellitenbild einer Küste: türkisfarbene Riffe im tiefblauen Meer vor einem hellen Land",
+          "caption": "Die türkisfarbenen Streifen im Wasser sind Riffe.",
+          "source": "https://commons.wikimedia.org/wiki/File:GreatBarrierReef-EO.JPG",
+          "licence": "gemeinfrei"
+        }
+      ],
       "answer": 2300,
       "tolerance": 300,
       "unit": "km",
@@ -632,6 +802,16 @@
       "id": "galapagos-darwin",
       "type": "single-choice",
       "text": "Welcher Naturforscher besuchte 1835 mit dem Schiff „Beagle“ die Galápagos-Inseln?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/galapagos-darwin.jpg",
+          "alt": "Zwei Seelöwen liegen an einem hellen Sandstrand; im Wasser dahinter ein Schlauchboot und dunkle Felsen",
+          "caption": "Hier ruhen Tiere am Strand, zwischen dunklen Felsen und klarem Wasser. Foto: M M from Switzerland.",
+          "source": "https://commons.wikimedia.org/wiki/File:Galápagos_Inseln,_Ecuador_(13918667084).jpg",
+          "licence": "CC-BY-SA-2.0"
+        }
+      ],
       "options": [
         {
           "text": "Charles Darwin",
@@ -682,6 +862,16 @@
       "id": "halong-bucht",
       "type": "single-choice",
       "text": "In der Halong-Bucht ragen fast 2000 Felsen aus Kalkstein aus dem Meer. In welchem Land liegt sie?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/halong-bucht.jpg",
+          "alt": "Steile, grüne Felsen ragen aus ruhigem, grünlichem Wasser; vorne liegen Boote an einem Anleger",
+          "caption": "Schau, wie steil die Felsen aus dem Wasser ragen. Foto: Vyacheslav Argenberg.",
+          "source": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay,_Vietnam,_View_from_above.jpg",
+          "licence": "CC-BY-4.0"
+        }
+      ],
       "options": [
         {
           "text": "Vietnam",
@@ -732,6 +922,16 @@
       "id": "giants-causeway",
       "type": "single-choice",
       "text": "Der Giant’s Causeway an der Küste Nordirlands besteht aus etwa 40.000 Säulen. Aus welchem Gestein sind sie?",
+      "material": [
+        {
+          "type": "figure",
+          "image": "images/giants-causeway.jpg",
+          "alt": "Eine Küste mit vielen dunklen Steinsäulen, die wie Pflastersteine nebeneinander stehen, dahinter das Meer",
+          "caption": "Die Säulen haben mehrere Ecken und stehen dicht an dicht. Foto: code poet.",
+          "source": "https://commons.wikimedia.org/wiki/File:Causeway-code_poet-4.jpg",
+          "licence": "CC-BY-SA-2.0"
+        }
+      ],
       "options": [
         {
           "text": "Basalt",

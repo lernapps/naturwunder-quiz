@@ -42,6 +42,8 @@ Mark a choice you made without asking the creator with "(guess)", and list it in
 - Jede Antwortmöglichkeit verlinkt ihren Artikel in der deutschen Wikipedia, auch die falschen (Wunsch des Erstellers); Texte in eigenen Worten.
 - `rememberLastResult` aus: Das Quiz speichert nichts, `fitness.storage: none` (guess).
 - `@lernapps/app-templates` von 4f90987 auf a876fb9 aktualisiert, weil der Ersteller sagte, das neue Template behebe den Zeitüberschreitungs-Fehler.
+- Bilder: 20 der 25 Fragen zeigen ein Bild (`material`, Typ `figure`) aus dem Wikipedia-Artikel der Lösung, von Wikimedia Commons, bis 800 px breit, mit Quelle (Commons-Seite), Lizenz und Name der Urheberin bzw. des Urhebers in der Bildunterschrift. Ohne Bild bleiben `hoehlen-rekorde`, `son-doong-dschungel`, `kontinente-zuordnen`, `wuesten-erkennen` und `hoechste-berge-kontinente`, weil jedes passende Bild die Antwort verriete.
+- `@lernapps/app-templates` von a876fb9 auf 4ad34cc aktualisiert, weil erst dieses Template `material` (Bilder in Fragen) und das verzögerte Laden der Bilder kennt (Ersteller wünschte Bilder).
 - `creator.url` = https://github.com/mrsimpson, abgeleitet aus „@mrsimpson“ (guess).
 
 ## Notes
