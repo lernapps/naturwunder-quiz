@@ -15,7 +15,7 @@ license: MIT
 
 ## Can and cannot
 
-- The README of the template says it: <https://raw.githubusercontent.com/lernapps/app-templates/main/quiz/README.md>.
+- The README of the template says it: `node_modules/@lernapps/app-templates/quiz/README.md` (in the folder `init` made).
   Read it before this skill's mapping, if you have not yet.
 
 ## Map the content
@@ -42,7 +42,8 @@ license: MIT
 
 ## Decide
 
-- Languages: German; English as a second language is supported. Each declared language complete.
+- Languages: German; English as a second language is supported. Each declared language complete. Never English
+  only: without `languages` the page and the runtime's texts are German. English wanted → `[de, en]`.
 - Keep the last score on the device (`rememberLastResult`) or nothing. Keeping it → the entry says
   `fitness.storage: device`.
 - Order: shuffled per seed; a link with `?seed=42` gives every learner the same order.
