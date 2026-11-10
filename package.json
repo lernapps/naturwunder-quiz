@@ -9,8 +9,8 @@
     "check": "lernapps check"
   },
   "devDependencies": {
-    "@lernapps/app-templates": "^0.6.0",
-    "@lernapps/tooling": "^0.8.4",
+    "@lernapps/app-templates": "0.6.0",
+    "@lernapps/tooling": "0.8.4",
     "vite-plus": "1.4.0"
   },
   "overrides": {
