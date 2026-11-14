@@ -11,9 +11,9 @@
   "devDependencies": {
     "@lernapps/app-templates": "0.8.0",
     "@lernapps/tooling": "^0.12.3",
-    "vite-plus": "1.4.0"
+    "vite-plus": "1.6.0"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@1.4.0"
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.6.0"
   }
 }
